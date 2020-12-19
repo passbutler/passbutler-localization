@@ -12,25 +12,21 @@ def generateLocalizations():
         generateDesktopLocalizations(localizationsData)
 
 def generateAndroidLocalizations(localizationsData):
-    defaultLanguage = localizationsData['default_language']
-
-    localizationTranslationFormatter = lambda localizationTranslationKey, localizationTranslationValue: '<string key="{0}">{1}</string>'.format(localizationTranslationKey, localizationTranslationValue)
+    localizationTranslationFormatter = lambda localizationTranslationKey, localizationTranslationValue: '    <string key="{0}">{1}</string>'.format(localizationTranslationKey, localizationTranslationValue)
     localizationTables = __generatedLocalizationTables(localizationsData, localizationTranslationFormatter)
 
-    localizationTableOutputBaseDirectory = './output/android/'
+    localizationTableOutputDirectory = './output/android/'
+    __ensuresDirectoryExistence(localizationTableOutputDirectory)
 
     for localizationTableLanguageCode in localizationTables:
         localizationTableTranslations = localizationTables[localizationTableLanguageCode]
 
-        localizationTableOutputDirectory = localizationTableOutputBaseDirectory + ('values/' if defaultLanguage == localizationTableLanguageCode else 'values-{0}/'.format(localizationTableLanguageCode))
-
-        # Ensures existince of directory
-        Path(localizationTableOutputDirectory).mkdir(parents=True, exist_ok=True)
-
-        localizationTableFileName = '{0}strings.xml'.format(localizationTableOutputDirectory)
+        localizationTableFileName = '{0}strings_{1}.xml'.format(localizationTableOutputDirectory, localizationTableLanguageCode)
 
         with open(localizationTableFileName, 'w') as localizationTableFile:
-            localizationTableOutput = '\n'.join(localizationTableTranslations)
+            localizationTableOutput = '<resources>\n'
+            localizationTableOutput += '\n'.join(localizationTableTranslations) + '\n'
+            localizationTableOutput += '</resources>'
             localizationTableFile.writelines(localizationTableOutput)
 
 def generateDesktopLocalizations(localizationsData):
@@ -38,9 +34,7 @@ def generateDesktopLocalizations(localizationsData):
     localizationTables = __generatedLocalizationTables(localizationsData, localizationTranslationFormatter)
 
     localizationTableOutputDirectory = './output/desktop/'
-    
-    # Ensures existince of directory
-    Path(localizationTableOutputDirectory).mkdir(parents=True, exist_ok=True)
+    __ensuresDirectoryExistence(localizationTableOutputDirectory)
 
     for localizationTableLanguageCode in localizationTables:
         localizationTableTranslations = localizationTables[localizationTableLanguageCode]
@@ -71,6 +65,9 @@ def __generatedLocalizationTables(localizationsData, localizationTranslationForm
                 generatedLocalizationTables.setdefault(localizationLanguageCode, []).append(formattedLocalizationTranslation)
 
     return generatedLocalizationTables
+
+def __ensuresDirectoryExistence(directoryPath):
+    Path(directoryPath).mkdir(parents=True, exist_ok=True)
 
 if __name__ == '__main__':
     print('Generate localization files')
