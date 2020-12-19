@@ -1,0 +1,27 @@
+{
+    "default_language": "en",
+    "sections": [
+        {
+            "name": "Welcome",
+            "localizations": {
+                "welcome_title": {
+                    "de": "Willkommen bei Pass Butler",
+                    "en": "Welcome to Pass Butler"
+                },
+                "welcome_create_vault_headline": {
+                    "de": "Neuen Vault erstellen",
+                    "en": "Create new vault"
+                }
+            }
+        },
+        {
+            "name": "Login",
+            "localizations": {
+                    "login_title": {
+                        "de": "Pass Butler Anmelden",
+                        "en": "Pass Butler Login"
+                    }
+            }
+        }
+    ]
+}
