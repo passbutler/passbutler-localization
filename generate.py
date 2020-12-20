@@ -24,7 +24,8 @@ def generateAndroidLocalizations(localizationsData):
         localizationTableFileName = '{0}strings_{1}.xml'.format(localizationTableOutputDirectory, localizationTableLanguageCode)
 
         with open(localizationTableFileName, 'w') as localizationTableFile:
-            localizationTableOutput = '<resources>\n'
+            localizationTableOutput = '<!-- WARNING: AUTO GENERATED FILE - DO NOT MODIFY! -->\n\n'
+            localizationTableOutput += '<resources>\n'
             localizationTableOutput += '\n'.join(localizationTableTranslations) + '\n'
             localizationTableOutput += '</resources>'
             localizationTableFile.writelines(localizationTableOutput)
@@ -42,7 +43,8 @@ def generateDesktopLocalizations(localizationsData):
         localizationTableFileName = '{0}Messages_{1}.properties'.format(localizationTableOutputDirectory, localizationTableLanguageCode)
 
         with open(localizationTableFileName, 'w') as localizationTableFile:
-            localizationTableOutput = '\n'.join(localizationTableTranslations)
+            localizationTableOutput = '# WARNING: AUTO GENERATED FILE - DO NOT MODIFY!\n\n'
+            localizationTableOutput += '\n'.join(localizationTableTranslations)
             localizationTableFile.writelines(localizationTableOutput)
 
 def __generatedLocalizationTables(localizationsData, localizationTranslationFormatter):
