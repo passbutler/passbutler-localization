@@ -2,25 +2,826 @@
     "default_language": "en",
     "sections": [
         {
+            "name": "General",
+            "localizations": {
+                "general_app_name": {
+                    "en": "Pass\u00A0Butler",
+                    "de": "Pass\u00A0Butler"
+                },
+                "general_file_extension_description": {
+                    "en": "Pass\u00A0Butler Vault",
+                    "de": "Pass\u00A0Butler Vault"
+                },
+                "general_okay": {
+                    "en": "OK",
+                    "de": "OK"
+                },
+                "general_cancel": {
+                    "en": "Cancel",
+                    "de": "Abbrechen"
+                },
+                "general_create_vault_failed_title": {
+                    "en": "Create vault was not successful",
+                    "de": "Erstellen des Vaults hat leider nicht geklappt"
+                },
+                "general_create_vault_failed_already_existing_title": {
+                    "en": "The chosen vault file already exists",
+                    "de": "Das gewählte Vault existiert bereits"
+                },
+                "general_open_vault_failed_title": {
+                    "en": "Open vault was not successful",
+                    "de": "Öffnen des Vaults hat leider nicht geklappt"
+                },
+                "general_relative_date_since": {
+                    "en": "%1$s %2$s ago",
+                    "de": "vor %1$s %2$s"
+                },
+                "general_relative_date_unit_second_one": {
+                    "en": "second",
+                    "de": "Sekunde"
+                },
+                "general_relative_date_unit_second_other": {
+                    "en": "seconds",
+                    "de": "Sekunden"
+                },
+                "general_relative_date_unit_minute_one": {
+                    "en": "minute",
+                    "de": "Minute"
+                },
+                "general_relative_date_unit_minute_other": {
+                    "en": "minutes",
+                    "de": "Minuten"
+                },
+                "general_relative_date_unit_hour_one": {
+                    "en": "hour",
+                    "de": "Stunde"
+                },
+                "general_relative_date_unit_hour_other": {
+                    "en": "hours",
+                    "de": "Stunden"
+                },
+                "general_relative_date_unit_day_one": {
+                    "en": "day",
+                    "de": "Tag"
+                },
+                "general_relative_date_unit_day_other": {
+                    "en": "days",
+                    "de": "Tagen"
+                },
+                "general_relative_date_unit_month_one": {
+                    "en": "month",
+                    "de": "Monat"
+                },
+                "general_relative_date_unit_month_other": {
+                    "en": "months",
+                    "de": "Monaten"
+                },
+                "general_relative_date_unit_year_one": {
+                    "en": "year",
+                    "de": "Jahr"
+                },
+                "general_relative_date_unit_year_other": {
+                    "en": "years",
+                    "de": "Jahren"
+                }
+            }
+        },
+        {
+            "name": "Form validation",
+            "localizations": {
+                "form_serverurl_validation_error_empty": {
+                    "en": "Server URL is required",
+                    "de": "Server URL nicht ausgefüllt"
+                },
+                "form_serverurl_validation_error_invalid": {
+                    "en": "Server URL is invalid",
+                    "de": "Server URL nicht gültig"
+                },
+                "form_serverurl_validation_error_invalid_scheme": {
+                    "en": "Server URL must start with „https://“",
+                    "de": "Server URL muss mit „https://“ beginnen"
+                },
+                "form_master_password_validation_error_empty": {
+                    "en": "Master password is required",
+                    "de": "Master-Passwort nicht ausgefüllt"
+                }
+            }
+        },
+        {
+            "name": "Menu",
+            "localizations": {
+                "menu_create_vault": {
+                    "en": "Create new vault",
+                    "de": "Vault erstellen"
+                },
+                "menu_open_vault": {
+                    "en": "Open existing vault",
+                    "de": "Vault öffnen"
+                },
+                "menu_close_vault": {
+                    "en": "Close vault",
+                    "de": "Vault schließen"
+                },
+                "menu_close_application": {
+                    "en": "Close",
+                    "de": "Schließen"
+                }
+            }
+        },
+        {
+            "name": "Android AutoFill",
+            "localizations": {
+                "autofill_activity_name": {
+                    "en": "AutoFill with Pass\u00A0Butler",
+                    "de": "AutoFill mit Pass\u00A0Butler"
+                },
+                "autofill_unlock_entry_label": {
+                    "en": "AutoFill with Pass\u00A0Butler",
+                    "de": "Ausfüllen mit Pass\u00A0Butler"
+                },
+                "autofill_entry_label_username": {
+                    "en": "%1$s",
+                    "de": "%1$s"
+                },
+                "autofill_entry_label_password": {
+                    "en": "Password for „%1$s“",
+                    "de": "Passwort für „%1$s“"
+                },
+                "autofill_selection_title": {
+                    "en": "AutoFill with Pass\u00A0Butler",
+                    "de": "Ausfüllen mit Pass\u00A0Butler"
+                },
+                "autofill_selection_subtitle_website": {
+                    "en": "Website „%1$s“",
+                    "de": "Webseite „%1$s“"
+                },
+                "autofill_selection_subtitle_app": {
+                    "en": "App „%1$s“",
+                    "de": "App „%1$s“"
+                }
+            }
+        },
+        {
             "name": "Welcome",
             "localizations": {
                 "welcome_title": {
-                    "de": "Willkommen bei Pass Butler",
-                    "en": "Welcome to Pass Butler"
+                    "en": "Welcome to Pass\u00A0Butler",
+                    "de": "Willkommen bei Pass\u00A0Butler"
                 },
                 "welcome_create_vault_headline": {
-                    "de": "Neuen Vault erstellen",
-                    "en": "Create new vault"
+                    "en": "Create new vault",
+                    "de": "Neuen Vault erstellen"
+                },
+                "welcome_create_vault_description": {
+                    "en": "If you are new to Pass\u00A0Butler, just create your password vault:",
+                    "de": "Wenn du Pass\u00A0Butler das erste Mal verwendest, erstelle deinen Vault:"
+                },
+                "welcome_create_vault_button_text": {
+                    "en": "Create vault",
+                    "de": "Vault erstellen"
+                },
+                "welcome_open_vault_headline": {
+                    "en": "Open existing vault",
+                    "de": "Vorhandenen Vault öffnen"
+                },
+                "welcome_open_vault_description": {
+                    "en": "If you have already a vault file, you can open it:",
+                    "de": "Öffne deinen vorhandenen Vault, wenn du schon einen hast:"
+                },
+                "welcome_open_vault_button_text": {
+                    "en": "Open vault",
+                    "de": "Vault öffnen"
                 }
             }
         },
         {
             "name": "Login",
             "localizations": {
-                    "login_title": {
-                        "de": "Pass Butler Anmelden",
-                        "en": "Pass Butler Login"
-                    }
+                "login_title": {
+                    "en": "Pass\u00A0Butler Login",
+                    "de": "Pass\u00A0Butler Anmelden"
+                },
+                "login_headline": {
+                    "en": "Welcome to Pass\u00A0Butler",
+                    "de": "Willkommen bei Pass\u00A0Butler"
+                },
+                "login_description": {
+                    "en": "Please sign in to your server or create a local account if you use Pass\u00A0Butler the first time",
+                    "de": "Melde dich an deinem Pass\u00A0Butler Server an oder erstelle ein lokales Benutzerkonto wenn du Pass\u00A0Butler das erste Mal verwendest"
+                },
+                "login_serverurl_hint": {
+                    "en": "Server URL",
+                    "de": "Server URL"
+                },
+                "login_username_hint": {
+                    "en": "Username",
+                    "de": "Benutzername"
+                },
+                "login_master_password_hint": {
+                    "en": "Master password",
+                    "de": "Master-Passwort"
+                },
+                "login_local_login_label": {
+                    "en": "Local user account",
+                    "de": "Lokales Benutzerkonto"
+                },
+                "login_button_text": {
+                    "en": "Log in",
+                    "de": "Anmelden"
+                },
+                "login_username_validation_error_empty": {
+                    "en": "Username is required",
+                    "de": "Benutzername nicht ausgefüllt"
+                },
+                "login_failed_general_title": {
+                    "en": "Login was not successful",
+                    "de": "Anmeldung hat nicht geklappt"
+                },
+                "login_failed_unauthorized_title": {
+                    "en": "Login credentials incorrect probably",
+                    "de": "Anmeldedaten vermutlich nicht korrekt"
+                }
+            }
+        },
+        {
+            "name": "Locked screen",
+            "localizations": {
+                "locked_screen_title": {
+                    "en": "Pass\u00A0Butler Unlock",
+                    "de": "Pass\u00A0Butler Entsperren"
+                },
+                "locked_screen_header_autofill": {
+                    "en": "Auto fill with Pass\u00A0Butler",
+                    "de": "Ausfüllen mit Pass\u00A0Butler"
+                },
+                "locked_screen_header_normal": {
+                    "en": "Pass\u00A0Butler is locked",
+                    "de": "Pass\u00A0Butler ist gesperrt"
+                },
+                "locked_screen_description": {
+                    "en": "Please unlock your Pass\u00A0Butler vault with one of the following options:",
+                    "de": "Bitte entsperren Sie Pass\u00A0Butler mit den folgenden Möglichkeiten:"
+                },
+                "locked_screen_master_password_hint": {
+                    "en": "Master password",
+                    "de": "Master-Passwort"
+                },
+                "locked_screen_button_password_text": {
+                    "en": "Unlock with password",
+                    "de": "Entsperren mit Passwort"
+                },
+                "locked_screen_method_dividing_text": {
+                    "en": "– or –",
+                    "de": "– oder –"
+                },
+                "locked_screen_button_biometric_text": {
+                    "en": "Unlock with biometrics",
+                    "de": "Biometrisch entsperren"
+                },
+                "locked_screen_button_biometric_disabled_hint_text": {
+                    "en": "Enable biometric unlock in the settings of Pass\u00A0Butler to use this feature.",
+                    "de": "Aktivieren Sie biometrisches Entsperren in den Einstellungen von Pass\u00A0Butler, um diese Funktion nutzen zu können."
+                },
+                "locked_screen_biometrics_prompt_title": {
+                    "en": "Unlock Pass\u00A0Butler",
+                    "de": "Pass\u00A0Butler entsperren"
+                },
+                "locked_screen_biometrics_prompt_description": {
+                    "en": "Unlock Pass\u00A0Butler now",
+                    "de": "Entsperren Sie nun Pass\u00A0Butler"
+                },
+                "locked_screen_biometrics_prompt_cancel_button_text": {
+                    "en": "Cancel",
+                    "de": "Abbrechen"
+                },
+                "locked_screen_biometrics_unlock_failed_general_title": {
+                    "en": "Biometric unlock was not successful",
+                    "de": "Biometrisches Entsperren hat nicht geklappt"
+                },
+                "locked_screen_biometrics_unlock_failed_missing_key_title": {
+                    "en": "Biometric unlock was not successful - please setup the feature again",
+                    "de": "Biometrisches Entsperren hat nicht geklappt - bitte richten Sie die Funktion erneut ein"
+                },
+                "locked_screen_unlock_failed_general_title": {
+                    "en": "Unlock was not successful",
+                    "de": "Entsperren hat nicht geklappt"
+                },
+                "locked_screen_unlock_failed_wrong_master_password_title": {
+                    "en": "Master password is incorrect",
+                    "de": "Master-Passwort ist nicht korrekt"
+                }
+            }
+        },
+        {
+            "name": "Navigation drawer",
+            "localizations": {
+                "drawer_header_title": {
+                    "en": "Pass\u00A0Butler",
+                    "de": "Pass\u00A0Butler"
+                },
+                "drawer_header_usertype_local": {
+                    "en": "Register on server",
+                    "de": "Benutzerkonto registrieren"
+                },
+                "drawer_open_description": {
+                    "en": "Open navigation menu",
+                    "de": "Navigationsmenü öffnen"
+                },
+                "drawer_close_description": {
+                    "en": "Close navigation menu",
+                    "de": "Navigationsmenü schließen"
+                },
+                "drawer_menu_item_overview": {
+                    "en": "My Vault",
+                    "de": "Mein Vault"
+                },
+                "drawer_menu_item_settings": {
+                    "en": "Settings",
+                    "de": "Einstellungen"
+                },
+                "drawer_menu_item_about": {
+                    "en": "About",
+                    "de": "Über / Lizenz"
+                },
+                "drawer_menu_item_logout": {
+                    "en": "Logout",
+                    "de": "Abmelden"
+                },
+                "drawer_menu_category_external_links": {
+                    "en": "External links",
+                    "de": "Externe Links"
+                },
+                "drawer_menu_item_homepage": {
+                    "en": "Sicherheitskritisch.de",
+                    "de": "Sicherheitskritisch.de"
+                },
+                "drawer_menu_item_googleplay": {
+                    "en": "Review on Google Play",
+                    "de": "Bewerten auf Google Play"
+                }
+            }
+        },
+        {
+            "name": "Overview",
+            "localizations": {
+                "overview_title": {
+                    "en": "My Vault",
+                    "de": "Mein Vault"
+                },
+                "overview_search_hint": {
+                    "en": "Search",
+                    "de": "Suchen"
+                },
+                "overview_last_sync_subtitle": {
+                    "en": "Last synchronized: %1$s",
+                    "de": "Zuletzt synchronisiert: %1$s"
+                },
+                "overview_last_sync_never": {
+                    "en": "Never",
+                    "de": "Nie"
+                },
+                "overview_empty_screen_title": {
+                    "en": "No entries",
+                    "de": "Noch keine Einträge"
+                },
+                "overview_empty_screen_description": {
+                    "en": "Still no entries created",
+                    "de": "Es wurden noch keine Einträge angelegt"
+                },
+                "overview_sync_successful_message": {
+                    "en": "Synchronization was successful",
+                    "de": "Synchronisation war erfolgreich"
+                },
+                "overview_sync_failed_message": {
+                    "en": "Synchronization was not successful",
+                    "de": "Synchronisation hat nicht geklappt"
+                },
+                "overview_logout_failed_title": {
+                    "en": "Logout was not successful",
+                    "de": "Abmeldung hat nicht geklappt"
+                },
+                "overview_item_context_menu_copy_username": {
+                    "en": "Copy username",
+                    "de": "Benutzernamen kopieren"
+                },
+                "overview_item_context_menu_copy_password": {
+                    "en": "Copy password",
+                    "de": "Passwort kopieren"
+                },
+                "overview_item_context_menu_copy_url": {
+                    "en": "Copy URL",
+                    "de": "URL kopieren"
+                },
+                "overview_item_information_clipboard_successful_message": {
+                    "en": "Copied to clipboard",
+                    "de": "In Zwischenablage kopiert"
+                },
+                "overview_item_information_clipboard_failed_empty_title": {
+                    "en": "Could not copy empty data to clipboard",
+                    "de": "Kopieren in Zwischenablage hat nicht geklappt"
+                }
+            }
+        },
+        {
+            "name": "Item detail",
+            "localizations": {
+                "itemdetail_title_new": {
+                    "en": "Create new item",
+                    "de": "Neuen Eintrag anlegen"
+                },
+                "itemdetail_title_edit": {
+                    "en": "Show/edit item",
+                    "de": "Eintrag ansehen/bearbeiten"
+                },
+                "itemdetail_details_header": {
+                    "en": "Details",
+                    "de": "Details"
+                },
+                "itemdetail_title_hint": {
+                    "en": "Title",
+                    "de": "Titel"
+                },
+                "itemdetail_username_hint": {
+                    "en": "Username",
+                    "de": "Benutzername"
+                },
+                "itemdetail_password_hint": {
+                    "en": "Password",
+                    "de": "Passwort"
+                },
+                "itemdetail_url_hint": {
+                    "en": "URL",
+                    "de": "URL"
+                },
+                "itemdetail_notes_hint": {
+                    "en": "Notes",
+                    "de": "Notizen"
+                },
+                "itemdetail_information_header": {
+                    "en": "Information",
+                    "de": "Informationen"
+                },
+                "itemdetail_modified_title": {
+                    "en": "Modified",
+                    "de": "Verändert am"
+                },
+                "itemdetail_created_title": {
+                    "en": "Created",
+                    "de": "Erstellt am"
+                },
+                "itemdetail_id_title": {
+                    "en": "UUID",
+                    "de": "UUID"
+                },
+                "itemdetail_authorizations_header": {
+                    "en": "Share item",
+                    "de": "Zugang teilen"
+                },
+                "itemdetail_authorizations_description_owned_item": {
+                    "en": "Share access to this item with other users of your Pass\u00A0Butler server.",
+                    "de": "Teilen Sie den Zugang zu diesem Eintrag mit anderen Benutzern Ihres Pass\u00A0Butler-Servers."
+                },
+                "itemdetail_authorizations_description_shared_item": {
+                    "en": "The access to this item was granted by user „%1$s“ on the %2$s. You are permitted to view and edit the item.",
+                    "de": "Der Zugang zu diesem Eintag wurde von dem Benutzer „%1$s“ am %2$s mit Ihnen geteilt. Sie dürfen den Eintrag ansehen und bearbeiten."
+                },
+                "itemdetail_authorizations_description_shared_readonly_item": {
+                    "en": "The access to this item was granted by user „%1$s“ on the %2$s. You are permitted to view the item only.",
+                    "de": "Der Zugang zu diesem Eintag wurde von dem Benutzer „%1$s“ am %2$s mit Ihnen geteilt. Sie dürfen den Eintrag lediglich ansehen."
+                },
+                "itemdetail_authorizations_button_text": {
+                    "en": "Share item",
+                    "de": "Zugang teilen"
+                },
+                "itemdetail_authorizations_footer_teaser": {
+                    "en": "Register on a Pass\u00A0Butler server to share the access to this item with other users.",
+                    "de": "Registrieren Sie sich bei einem Pass\u00A0Butler-Server, um den Zugang zu diesem Eintrag mit anderen Benutzern teilen zu können."
+                },
+                "itemdetail_delete_header": {
+                    "en": "Delete item",
+                    "de": "Eintrag löschen"
+                },
+                "itemdetail_delete_button_title": {
+                    "en": "Delete item",
+                    "de": "Eintrag löschen"
+                },
+                "itemdetail_save_button_title": {
+                    "en": "Save",
+                    "de": "Speichern"
+                },
+                "itemdetail_title_validation_error_empty": {
+                    "en": "Title is required",
+                    "de": "Titel nicht ausgefüllt"
+                },
+                "itemdetail_save_failed_general_title": {
+                    "en": "Save was not successful",
+                    "de": "Speichern hat nicht geklappt"
+                },
+                "itemdetail_delete_successful_message": {
+                    "en": "Deletion successful",
+                    "de": "Löschen erfolgreich"
+                },
+                "itemdetail_delete_failed_general_title": {
+                    "en": "Deletion was not successful",
+                    "de": "Löschen hat nicht geklappt"
+                }
+            }
+        },
+        {
+            "name": "Item authorizations detail",
+            "localizations": {
+                "itemauthorizations_title": {
+                    "en": "Share item",
+                    "de": "Zugang teilen"
+                },
+                "itemauthorizations_header": {
+                    "en": "Share item",
+                    "de": "Zugang teilen"
+                },
+                "itemauthorizations_description": {
+                    "en": "Decide with which users you share the entry. You can choose if the user is only allowed to view the item or also allowed to edit the item.",
+                    "de": "Entscheiden Sie mit welchen Benutzern Sie den Eintrag teilen möchten. Sie können wählen ob der jeweilige Benutzer den Eintrag lediglich ansehen oder auch bearbeiten darf."
+                },
+                "itemauthorizations_read_switch_title": {
+                    "en": "View",
+                    "de": "Ansehen"
+                },
+                "itemauthorizations_write_switch_title": {
+                    "en": "Edit",
+                    "de": "Bearbeiten"
+                },
+                "itemauthorizations_save_button_title": {
+                    "en": "Apply",
+                    "de": "Übernehmen"
+                },
+                "itemauthorizations_empty_screen_title": {
+                    "en": "No other users",
+                    "de": "Noch keine Benutzer"
+                },
+                "itemauthorizations_empty_screen_description": {
+                    "en": "On your Pass\u00A0Butler server are still no other users to share the item with.",
+                    "de": "Auf Ihrem Pass\u00A0Butler-Server existieren außer Ihnen noch keine weiteren Benutzer mit denen Sie den Eintrag teilen können."
+                },
+                "itemauthorizations_save_failed_general_title": {
+                    "en": "Save was not successful",
+                    "de": "Speichern hat nicht geklappt"
+                }
+            }
+        },
+        {
+            "name": "Settings",
+            "localizations": {
+                "settings_title": {
+                    "en": "Settings",
+                    "de": "Einstellungen"
+                },
+                "settings_category_general_title": {
+                    "en": "General",
+                    "de": "Allgemein"
+                },
+                "settings_dark_theme_setting_title": {
+                    "en": "Dark theme",
+                    "de": "Dunkler Modus"
+                },
+                "settings_dark_theme_setting_summary": {
+                    "en": "Enables an eye-friendly look and feel of Pass\u00A0Butler",
+                    "de": "Aktiviert ein dunkles, augenfreundliches Aussehen von Pass\u00A0Butler"
+                },
+                "settings_category_security_title": {
+                    "en": "Security",
+                    "de": "Sicherheit"
+                },
+                "settings_hide_passwords_setting_title": {
+                    "en": "Hide passwords",
+                    "de": "Passwörter ausblenden"
+                },
+                "settings_hide_passwords_setting_summary": {
+                    "en": "Hide passwords by default to avoid shoulder surfing",
+                    "de": "Passwörter standardmäßig ausblenden, damit andere Personen diese nicht sehen"
+                },
+                "settings_automatic_lock_timeout_setting_title": {
+                    "en": "Automatic lock",
+                    "de": "Automatische Sperre"
+                },
+                "settings_automatic_lock_timeout_setting_summary": {
+                    "en": "Time period after Pass\u00A0Butler locks automatically. This setting has no impact on the AutoFill service!",
+                    "de": "Zeitspanne nach der Pass\u00A0Butler im Hintergrund automatisch gesperrt wird. Diese Einstellung hat keinen Einfluss auf den AutoFill-Dienst!"
+                },
+                "settings_automatic_lock_timeout_setting_value_0s": {
+                    "en": "Immediately",
+                    "de": "Sofort"
+                },
+                "settings_automatic_lock_timeout_setting_value_15s": {
+                    "en": "After 15 seconds",
+                    "de": "Nach 15 Sekunden"
+                },
+                "settings_automatic_lock_timeout_setting_value_30s": {
+                    "en": "After 30 seconds",
+                    "de": "Nach 30 Sekunden"
+                },
+                "settings_automatic_lock_timeout_setting_value_60s": {
+                    "en": "After 1 minute",
+                    "de": "Nach 1 Minute"
+                },
+                "settings_biometric_unlock_setting_title": {
+                    "en": "Biometric unlock",
+                    "de": "Biometrisches Entsperren"
+                },
+                "settings_biometric_unlock_setting_summary": {
+                    "en": "Unlock Pass\u00A0Butler with your biometrics as a comfortable alternative to the entry of your master password",
+                    "de": "Pass\u00A0Butler bequem durch Biometrie entsperren als schnelle Alternative zur Eingabe des Master-Passworts"
+                },
+                "settings_setup_biometric_unlock_master_password_dialog_title": {
+                    "en": "Confirm master password",
+                    "de": "Master-Passwort bestätigen"
+                },
+                "settings_setup_biometric_unlock_biometrics_prompt_title": {
+                    "en": "Setup biometric unlock",
+                    "de": "Biometrisches Entsperren einrichten"
+                },
+                "settings_setup_biometric_unlock_biometrics_prompt_description": {
+                    "en": "Setup biometric unlock now",
+                    "de": "Richten Sie Biometrisches Entsperren nun ein"
+                },
+                "settings_setup_biometric_unlock_biometrics_prompt_cancel_button_text": {
+                    "en": "Cancel",
+                    "de": "Abbrechen"
+                },
+                "settings_setup_biometric_unlock_failed_general_title": {
+                    "en": "Biometric unlock setup was not successful",
+                    "de": "Einrichtung hat nicht geklappt"
+                },
+                "settings_setup_biometric_unlock_failed_wrong_master_password_title": {
+                    "en": "Master password is incorrect",
+                    "de": "Master-Passwort ist nicht korrekt"
+                },
+                "settings_setup_biometric_unlock_successful_message": {
+                    "en": "Biometric unlock was setup successfully",
+                    "de": "Biometrisches Entsperren wurde eingerichtet"
+                },
+                "settings_disable_biometric_unlock_failed_general_title": {
+                    "en": "Biometric unlock could not be disabled",
+                    "de": "Deaktivierung hat nicht geklappt"
+                },
+                "settings_disable_biometric_unlock_successful_message": {
+                    "en": "Biometric unlock was disabled successfully",
+                    "de": "Biometrisches Entsperren wurde deaktiviert"
+                },
+                "settings_change_master_password_setting_title": {
+                    "en": "Change master password",
+                    "de": "Master-Passwort ändern"
+                },
+                "settings_change_master_password_setting_summary": {
+                    "en": "Change your master password",
+                    "de": "Klicken Sie hier, um Ihr Master-Passwort zu ändern"
+                },
+                "settings_save_setting_failed_title": {
+                    "en": "Setting could not be saved",
+                    "de": "Speichern der Einstellungen hat nicht geklappt"
+                }
+            }
+        },
+        {
+            "name": "Change master password",
+            "localizations": {
+                "change_master_password_title": {
+                    "en": "Change master password",
+                    "de": "Master-Passwort ändern"
+                },
+                "change_master_password_header": {
+                    "en": "Change master password",
+                    "de": "Master-Passwort ändern"
+                },
+                "change_master_password_description": {
+                    "en": "Your master password secures all your other passwords! You can change it here if you want. If you are signed in your Pass\u00A0Butler server, you need a working connection for the process!",
+                    "de": "Das Master-Passwort sichert alle Ihre Passwörter ab. Sie können es hier ändern. Falls Sie auf einem Pass\u00A0Butler-Server registriert sind, muss dieser für die Änderung erreichbar sein!"
+                },
+                "change_master_password_disable_biometric_hint": {
+                    "en": "Note: If you change your master password, the biometric unlock will be deactivated and you need setup it again for security reasons!",
+                    "de": "Hinweis: Durch die Änderung wird das biometrische Entsperren deaktiviert und Sie müssen es erneut einrichten!"
+                },
+                "change_master_password_old_master_password_hint": {
+                    "en": "Current master password",
+                    "de": "Aktuelles Master-Passwort"
+                },
+                "change_master_password_new_master_password_hint": {
+                    "en": "New master password",
+                    "de": "Neues Master-Passwort"
+                },
+                "change_master_password_new_master_password_confirm_hint": {
+                    "en": "New master password (confirmation)",
+                    "de": "Neues Master-Passwort (Bestätigung)"
+                },
+                "change_master_password_old_master_password_validation_error_empty": {
+                    "en": "Current master password is required",
+                    "de": "Aktuelles Master-Passwort nicht ausgefüllt"
+                },
+                "change_master_password_new_master_password_validation_error_empty": {
+                    "en": "New master password is required",
+                    "de": "Neues Master-Passwort nicht ausgefüllt"
+                },
+                "change_master_password_new_master_password_validation_error_equal": {
+                    "en": "New master password must be different to old one",
+                    "de": "Neues Master-Passwort ist gleich dem aktuellen"
+                },
+                "change_master_password_new_master_password_confirm_validation_error_different": {
+                    "en": "New master password confirmation is different",
+                    "de": "Neues Master-Passwort stimmt nicht überein"
+                },
+                "change_master_password_button_text": {
+                    "en": "Change",
+                    "de": "Ändern"
+                },
+                "change_master_password_successful_message": {
+                    "en": "Change successful",
+                    "de": "Änderung erfolgreich"
+                },
+                "change_master_password_failed_wrong_master_password_title": {
+                    "en": "Current master password is incorrect",
+                    "de": "Aktuelles Master-Passwort ist nicht korrekt"
+                },
+                "change_master_password_failed_update_user_failed_title": {
+                    "en": "Change was not successful: Check the connection to your Pass\u00A0Butler server",
+                    "de": "Änderung hat nicht geklappt: Prüfen Sie die Erreichbarkeit Ihres Pass\u00A0Butler-Servers"
+                },
+                "change_master_password_failed_general_title": {
+                    "en": "Change was not successful",
+                    "de": "Änderung hat nicht geklappt"
+                }
+            }
+        },
+        {
+            "name": "About",
+            "localizations": {
+                "about_title": {
+                    "en": "About",
+                    "de": "Über / Lizenz"
+                },
+                "about_header": {
+                    "en": "Pass\u00A0Butler",
+                    "de": "Pass\u00A0Butler"
+                },
+                "about_subheader": {
+                    "en": "Version %1$s (built on %2$s of source code revision %3$s)",
+                    "de": "Version %1$s (gebaut am %2$s von dem Quellcodestand %3$s)"
+                },
+                "about_passage_1": {
+                    "en": "Programmed by Bastian Raschke",
+                    "de": "Programmiert von Bastian Raschke"
+                }
+            }
+        },
+        {
+            "name": "Register local user",
+            "localizations": {
+                "register_local_user_title": {
+                    "en": "Register on server",
+                    "de": "Benutzerkonto registrieren"
+                },
+                "register_local_user_header": {
+                    "en": "Register on server",
+                    "de": "Benutzerkonto registrieren"
+                },
+                "register_local_user_description": {
+                    "en": "If you want to synchronize your passwords with multiple devices, you can register on a Pass\u00A0Butler server.\n\nThe following requirements must be fulfilled:\n\u2022 Registration is enabled on server\n\u2022 You have the correct invitation code of server\n\u2022 Your username is still not used on server",
+                    "de": "Wenn Sie Ihre Passwörter zwischen mehreren Geräten synchronisieren möchten, können Sie es auf einem Pass\u00A0Butler-Server registrieren.\n\nFolgende Bedingungen müssen erfüllt sein:\n\u2022 Registrierung auf Server aktiviert\n\u2022 Einladungs-Code von Server vorhanden\n\u2022 Benutzername nicht vergeben"
+                },
+                "register_local_user_serverurl_hint": {
+                    "en": "Server URL",
+                    "de": "Server URL"
+                },
+                "register_local_user_invitation_code_hint": {
+                    "en": "Invitation code",
+                    "de": "Einladungs-Code"
+                },
+                "register_local_user_master_password_hint": {
+                    "en": "Master password",
+                    "de": "Master-Passwort"
+                },
+                "register_local_user_button_text": {
+                    "en": "Register",
+                    "de": "Registrieren"
+                },
+                "register_local_user_invitation_code_validation_error_empty": {
+                    "en": "Invitation code is required",
+                    "de": "Einladungs-Code nicht ausgefüllt"
+                },
+                "register_local_user_successful_message": {
+                    "en": "Registration successful",
+                    "de": "Registrierung erfolgreich"
+                },
+                "register_local_user_failed_wrong_master_password_title": {
+                    "en": "Master password is incorrect",
+                    "de": "Master-Passwort ist nicht korrekt"
+                },
+                "register_local_user_failed_general_title": {
+                    "en": "Registration was not successful",
+                    "de": "Registrierung hat nicht geklappt"
+                },
+                "register_local_user_failed_forbidden_title": {
+                    "en": "The registration was rejected by the server",
+                    "de": "Registrierung wurde von Server verweigert"
+                }
             }
         }
     ]
