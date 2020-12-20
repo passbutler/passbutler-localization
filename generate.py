@@ -12,7 +12,7 @@ def generateLocalizations():
         generateDesktopLocalizations(localizationsData)
 
 def generateAndroidLocalizations(localizationsData):
-    localizationTranslationFormatter = lambda localizationTranslationKey, localizationTranslationValue: '    <string key="{0}">{1}</string>'.format(localizationTranslationKey, localizationTranslationValue)
+    localizationTranslationFormatter = lambda localizationTranslationKey, localizationTranslationValue: '    <string name="{0}">{1}</string>'.format(localizationTranslationKey, localizationTranslationValue)
     localizationTables = __generatedLocalizationTables(localizationsData, localizationTranslationFormatter)
 
     localizationTableOutputDirectory = './output/android/'
@@ -30,7 +30,7 @@ def generateAndroidLocalizations(localizationsData):
             localizationTableFile.writelines(localizationTableOutput)
 
 def generateDesktopLocalizations(localizationsData):
-    localizationTranslationFormatter = lambda localizationTranslationKey, localizationTranslationValue: '{0} = "{1}"'.format(localizationTranslationKey, localizationTranslationValue)
+    localizationTranslationFormatter = lambda localizationTranslationKey, localizationTranslationValue: '{0} = {1}'.format(localizationTranslationKey, localizationTranslationValue)
     localizationTables = __generatedLocalizationTables(localizationsData, localizationTranslationFormatter)
 
     localizationTableOutputDirectory = './output/desktop/'
