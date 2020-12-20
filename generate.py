@@ -4,14 +4,23 @@ import json
 from pathlib import Path
 
 def generateLocalizations():
-    with open('./localizations.json') as localizationsJsonFile:
+    localizationsData = __parseLocalizationFile('./localizations.json')
+    __generateAndroidLocalizations(localizationsData)
+    __generateDesktopLocalizations(localizationsData)
+
+def __parseLocalizationFile(localizationsFilePath):
+    with open(localizationsFilePath) as localizationsJsonFile:
         localizationsJsonFileContent = localizationsJsonFile.read()
+
+        # Preserve line breaks and unicode notation characters as they are
+        localizationsJsonFileContent = localizationsJsonFileContent.replace('\\n', '\\\\n')
+        localizationsJsonFileContent = localizationsJsonFileContent.replace('\\u', '\\\\u')
+
         localizationsData = json.loads(localizationsJsonFileContent)
 
-        generateAndroidLocalizations(localizationsData)
-        generateDesktopLocalizations(localizationsData)
+        return localizationsData
 
-def generateAndroidLocalizations(localizationsData):
+def __generateAndroidLocalizations(localizationsData):
     localizationTranslationFormatter = lambda localizationTranslationKey, localizationTranslationValue: '    <string name="{0}">{1}</string>'.format(localizationTranslationKey, localizationTranslationValue)
     localizationTables = __generatedLocalizationTables(localizationsData, localizationTranslationFormatter)
 
@@ -30,7 +39,7 @@ def generateAndroidLocalizations(localizationsData):
             localizationTableOutput += '</resources>'
             localizationTableFile.writelines(localizationTableOutput)
 
-def generateDesktopLocalizations(localizationsData):
+def __generateDesktopLocalizations(localizationsData):
     localizationTranslationFormatter = lambda localizationTranslationKey, localizationTranslationValue: '{0} = {1}'.format(localizationTranslationKey, localizationTranslationValue)
     localizationTables = __generatedLocalizationTables(localizationsData, localizationTranslationFormatter)
 
