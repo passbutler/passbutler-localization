@@ -73,6 +73,4 @@ def __ensuresDirectoryExistence(directoryPath):
 
 if __name__ == '__main__':
     print('Generate localization files')
-
-    # TODO: clean output before
     generateLocalizations()
