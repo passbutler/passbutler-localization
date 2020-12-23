@@ -98,8 +98,8 @@
                     "de": "Server URL nicht gültig"
                 },
                 "form_serverurl_validation_error_invalid_scheme": {
-                    "en": "Server URL must start with „https://“",
-                    "de": "Server URL muss mit „https://“ beginnen"
+                    "en": "Server URL must start with “https://“",
+                    "de": "Server URL muss mit “https://“ beginnen"
                 },
                 "form_master_password_validation_error_empty": {
                     "en": "Master password is required",
@@ -112,11 +112,11 @@
             "localizations": {
                 "menu_create_vault": {
                     "en": "Create new vault",
-                    "de": "Vault erstellen"
+                    "de": "Neuen Vault erstellen"
                 },
                 "menu_open_vault": {
                     "en": "Open existing vault",
-                    "de": "Vault öffnen"
+                    "de": "Vorhandenen Vault öffnen"
                 },
                 "menu_close_vault": {
                     "en": "Close vault",
@@ -133,7 +133,7 @@
             "localizations": {
                 "autofill_activity_name": {
                     "en": "AutoFill with Pass\u00A0Butler",
-                    "de": "AutoFill mit Pass\u00A0Butler"
+                    "de": "Ausfüllen mit Pass\u00A0Butler"
                 },
                 "autofill_unlock_entry_label": {
                     "en": "AutoFill with Pass\u00A0Butler",
@@ -144,20 +144,20 @@
                     "de": "%1$s"
                 },
                 "autofill_entry_label_password": {
-                    "en": "Password for „%1$s“",
-                    "de": "Passwort für „%1$s“"
+                    "en": "Password for “%1$s“",
+                    "de": "Passwort für “%1$s“"
                 },
                 "autofill_selection_title": {
                     "en": "AutoFill with Pass\u00A0Butler",
                     "de": "Ausfüllen mit Pass\u00A0Butler"
                 },
                 "autofill_selection_subtitle_website": {
-                    "en": "Website „%1$s“",
-                    "de": "Webseite „%1$s“"
+                    "en": "Website “%1$s“",
+                    "de": "Webseite “%1$s“"
                 },
                 "autofill_selection_subtitle_app": {
-                    "en": "App „%1$s“",
-                    "de": "App „%1$s“"
+                    "en": "App “%1$s“",
+                    "de": "App “%1$s“"
                 }
             }
         },
@@ -251,7 +251,7 @@
                     "de": "Pass\u00A0Butler Entsperren"
                 },
                 "locked_screen_header_autofill": {
-                    "en": "Auto fill with Pass\u00A0Butler",
+                    "en": "AutoFill with Pass\u00A0Butler",
                     "de": "Ausfüllen mit Pass\u00A0Butler"
                 },
                 "locked_screen_header_normal": {
@@ -259,7 +259,7 @@
                     "de": "Pass\u00A0Butler ist gesperrt"
                 },
                 "locked_screen_description": {
-                    "en": "Please unlock your Pass\u00A0Butler vault with one of the following options:",
+                    "en": "Please unlock Pass\u00A0Butler with one of the following options:",
                     "de": "Bitte entsperren Sie Pass\u00A0Butler mit den folgenden Möglichkeiten:"
                 },
                 "locked_screen_master_password_hint": {
@@ -418,7 +418,7 @@
                 },
                 "overview_item_information_clipboard_failed_empty_title": {
                     "en": "Could not copy empty data to clipboard",
-                    "de": "Kopieren in Zwischenablage hat nicht geklappt"
+                    "de": "Leere Daten nicht in die Zwischenablage kopiert"
                 }
             }
         },
@@ -482,12 +482,12 @@
                     "de": "Teilen Sie den Zugang zu diesem Eintrag mit anderen Benutzern Ihres Pass\u00A0Butler-Servers."
                 },
                 "itemdetail_authorizations_description_shared_item": {
-                    "en": "The access to this item was granted by user „%1$s“ on the %2$s. You are permitted to view and edit the item.",
-                    "de": "Der Zugang zu diesem Eintag wurde von dem Benutzer „%1$s“ am %2$s mit Ihnen geteilt. Sie dürfen den Eintrag ansehen und bearbeiten."
+                    "en": "The access to this item was granted by user “%1$s“ on the %2$s. You are permitted to view and edit the item.",
+                    "de": "Der Zugang zu diesem Eintag wurde von dem Benutzer “%1$s“ am %2$s mit Ihnen geteilt. Sie dürfen den Eintrag ansehen und bearbeiten."
                 },
                 "itemdetail_authorizations_description_shared_readonly_item": {
-                    "en": "The access to this item was granted by user „%1$s“ on the %2$s. You are permitted to view the item only.",
-                    "de": "Der Zugang zu diesem Eintag wurde von dem Benutzer „%1$s“ am %2$s mit Ihnen geteilt. Sie dürfen den Eintrag lediglich ansehen."
+                    "en": "The access to this item was granted by user “%1$s“ on the %2$s. You are permitted to view the item only.",
+                    "de": "Der Zugang zu diesem Eintag wurde von dem Benutzer “%1$s“ am %2$s mit Ihnen geteilt. Sie dürfen den Eintrag lediglich ansehen."
                 },
                 "itemdetail_authorizations_button_text": {
                     "en": "Share item",
@@ -604,7 +604,7 @@
                     "de": "Automatische Sperre"
                 },
                 "settings_automatic_lock_timeout_setting_summary": {
-                    "en": "Time period after Pass\u00A0Butler locks automatically. This setting has no impact on the AutoFill service!",
+                    "en": "Time period after Pass\u00A0Butler locks automatically in background. This setting has no impact on the AutoFill service!",
                     "de": "Zeitspanne nach der Pass\u00A0Butler im Hintergrund automatisch gesperrt wird. Diese Einstellung hat keinen Einfluss auf den AutoFill-Dienst!"
                 },
                 "settings_automatic_lock_timeout_setting_value_0s": {

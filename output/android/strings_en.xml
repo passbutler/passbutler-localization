@@ -23,7 +23,7 @@
     <string name="general_relative_date_unit_year_other">years</string>
     <string name="form_serverurl_validation_error_empty">Server URL is required</string>
     <string name="form_serverurl_validation_error_invalid">Server URL is invalid</string>
-    <string name="form_serverurl_validation_error_invalid_scheme">Server URL must start with „https://“</string>
+    <string name="form_serverurl_validation_error_invalid_scheme">Server URL must start with “https://“</string>
     <string name="form_master_password_validation_error_empty">Master password is required</string>
     <string name="menu_create_vault">Create new vault</string>
     <string name="menu_open_vault">Open existing vault</string>
@@ -32,10 +32,10 @@
     <string name="autofill_activity_name">AutoFill with Pass\u00A0Butler</string>
     <string name="autofill_unlock_entry_label">AutoFill with Pass\u00A0Butler</string>
     <string name="autofill_entry_label_username">%1$s</string>
-    <string name="autofill_entry_label_password">Password for „%1$s“</string>
+    <string name="autofill_entry_label_password">Password for “%1$s“</string>
     <string name="autofill_selection_title">AutoFill with Pass\u00A0Butler</string>
-    <string name="autofill_selection_subtitle_website">Website „%1$s“</string>
-    <string name="autofill_selection_subtitle_app">App „%1$s“</string>
+    <string name="autofill_selection_subtitle_website">Website “%1$s“</string>
+    <string name="autofill_selection_subtitle_app">App “%1$s“</string>
     <string name="welcome_title">Welcome to Pass\u00A0Butler</string>
     <string name="welcome_create_vault_headline">Create new vault</string>
     <string name="welcome_create_vault_description">If you are new to Pass\u00A0Butler, just create your password vault:</string>
@@ -55,9 +55,9 @@
     <string name="login_failed_general_title">Login was not successful</string>
     <string name="login_failed_unauthorized_title">Login credentials incorrect probably</string>
     <string name="locked_screen_title">Pass\u00A0Butler Unlock</string>
-    <string name="locked_screen_header_autofill">Auto fill with Pass\u00A0Butler</string>
+    <string name="locked_screen_header_autofill">AutoFill with Pass\u00A0Butler</string>
     <string name="locked_screen_header_normal">Pass\u00A0Butler is locked</string>
-    <string name="locked_screen_description">Please unlock your Pass\u00A0Butler vault with one of the following options:</string>
+    <string name="locked_screen_description">Please unlock Pass\u00A0Butler with one of the following options:</string>
     <string name="locked_screen_master_password_hint">Master password</string>
     <string name="locked_screen_button_password_text">Unlock with password</string>
     <string name="locked_screen_method_dividing_text">– or –</string>
@@ -109,8 +109,8 @@
     <string name="itemdetail_id_title">UUID</string>
     <string name="itemdetail_authorizations_header">Share item</string>
     <string name="itemdetail_authorizations_description_owned_item">Share access to this item with other users of your Pass\u00A0Butler server.</string>
-    <string name="itemdetail_authorizations_description_shared_item">The access to this item was granted by user „%1$s“ on the %2$s. You are permitted to view and edit the item.</string>
-    <string name="itemdetail_authorizations_description_shared_readonly_item">The access to this item was granted by user „%1$s“ on the %2$s. You are permitted to view the item only.</string>
+    <string name="itemdetail_authorizations_description_shared_item">The access to this item was granted by user “%1$s“ on the %2$s. You are permitted to view and edit the item.</string>
+    <string name="itemdetail_authorizations_description_shared_readonly_item">The access to this item was granted by user “%1$s“ on the %2$s. You are permitted to view the item only.</string>
     <string name="itemdetail_authorizations_button_text">Share item</string>
     <string name="itemdetail_authorizations_footer_teaser">Register on a Pass\u00A0Butler server to share the access to this item with other users.</string>
     <string name="itemdetail_delete_header">Delete item</string>
@@ -137,7 +137,7 @@
     <string name="settings_hide_passwords_setting_title">Hide passwords</string>
     <string name="settings_hide_passwords_setting_summary">Hide passwords by default to avoid shoulder surfing</string>
     <string name="settings_automatic_lock_timeout_setting_title">Automatic lock</string>
-    <string name="settings_automatic_lock_timeout_setting_summary">Time period after Pass\u00A0Butler locks automatically. This setting has no impact on the AutoFill service!</string>
+    <string name="settings_automatic_lock_timeout_setting_summary">Time period after Pass\u00A0Butler locks automatically in background. This setting has no impact on the AutoFill service!</string>
     <string name="settings_automatic_lock_timeout_setting_value_0s">Immediately</string>
     <string name="settings_automatic_lock_timeout_setting_value_15s">After 15 seconds</string>
     <string name="settings_automatic_lock_timeout_setting_value_30s">After 30 seconds</string>
