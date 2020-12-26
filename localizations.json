@@ -20,6 +20,10 @@
                     "en": "Cancel",
                     "de": "Abbrechen"
                 },
+                "general_search": {
+                    "en": "Search",
+                    "de": "Suchen"
+                },
                 "general_create_vault_failed_title": {
                     "en": "Create vault was not successful",
                     "de": "Erstellen des Vaults hat leider nicht geklappt"
@@ -335,6 +339,10 @@
                     "en": "My Vault",
                     "de": "Mein Vault"
                 },
+                "drawer_menu_recycle_bin": {
+                    "en": "Recycle bin",
+                    "de": "Papierkorb"
+                },
                 "drawer_menu_item_settings": {
                     "en": "Settings",
                     "de": "Einstellungen"
@@ -367,10 +375,6 @@
                 "overview_title": {
                     "en": "My Vault",
                     "de": "Mein Vault"
-                },
-                "overview_search_hint": {
-                    "en": "Search",
-                    "de": "Suchen"
                 },
                 "overview_last_sync_subtitle": {
                     "en": "Last synchronized: %1$s",
@@ -565,6 +569,35 @@
                 "itemauthorizations_save_failed_general_title": {
                     "en": "Save was not successful",
                     "de": "Speichern hat nicht geklappt"
+                }
+            }
+        },
+        {
+            "name": "Recycle bin",
+            "localizations": {
+                "recycle_bin_title": {
+                    "en": "Recycle bin",
+                    "de": "Papierkorb"
+                },
+                "recycle_bin_empty_screen_title": {
+                    "en": "No entries",
+                    "de": "Noch keine Einträge"
+                },
+                "recycle_bin_empty_screen_description": {
+                    "en": "Still no entries deleted",
+                    "de": "Es wurden noch keine Einträge gelöscht"
+                },
+                "recycle_bin_item_context_menu_restore": {
+                    "en": "Restore entry",
+                    "de": "Eintrag wiederherstellen"
+                },
+                "recycle_bin_restore_successful_message": {
+                    "en": "Restoring successful",
+                    "de": "Wiederherstellung erfolgreich"
+                },
+                "recycle_bin_restore_failed_general_title": {
+                    "en": "Restoring was not successful",
+                    "de": "Wiederherstellung hat nicht geklappt"
                 }
             }
         },

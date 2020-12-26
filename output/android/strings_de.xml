@@ -5,6 +5,7 @@
     <string name="general_file_extension_description">Pass\u00A0Butler Vault</string>
     <string name="general_okay">OK</string>
     <string name="general_cancel">Abbrechen</string>
+    <string name="general_search">Suchen</string>
     <string name="general_create_vault_failed_title">Erstellen des Vaults hat leider nicht geklappt</string>
     <string name="general_create_vault_failed_already_existing_title">Das gewählte Vault existiert bereits</string>
     <string name="general_open_vault_failed_title">Öffnen des Vaults hat leider nicht geklappt</string>
@@ -75,6 +76,7 @@
     <string name="drawer_open_description">Navigationsmenü öffnen</string>
     <string name="drawer_close_description">Navigationsmenü schließen</string>
     <string name="drawer_menu_item_overview">Mein Vault</string>
+    <string name="drawer_menu_recycle_bin">Papierkorb</string>
     <string name="drawer_menu_item_settings">Einstellungen</string>
     <string name="drawer_menu_item_about">Über / Lizenz</string>
     <string name="drawer_menu_item_logout">Abmelden</string>
@@ -82,7 +84,6 @@
     <string name="drawer_menu_item_homepage">Sicherheitskritisch.de</string>
     <string name="drawer_menu_item_googleplay">Bewerten auf Google Play</string>
     <string name="overview_title">Mein Vault</string>
-    <string name="overview_search_hint">Suchen</string>
     <string name="overview_last_sync_subtitle">Zuletzt synchronisiert: %1$s</string>
     <string name="overview_last_sync_never">Nie</string>
     <string name="overview_empty_screen_title">Noch keine Einträge</string>
@@ -129,6 +130,12 @@
     <string name="itemauthorizations_empty_screen_title">Noch keine Benutzer</string>
     <string name="itemauthorizations_empty_screen_description">Auf Ihrem Pass\u00A0Butler-Server existieren außer Ihnen noch keine weiteren Benutzer mit denen Sie den Eintrag teilen können.</string>
     <string name="itemauthorizations_save_failed_general_title">Speichern hat nicht geklappt</string>
+    <string name="recycle_bin_title">Papierkorb</string>
+    <string name="recycle_bin_empty_screen_title">Noch keine Einträge</string>
+    <string name="recycle_bin_empty_screen_description">Es wurden noch keine Einträge gelöscht</string>
+    <string name="recycle_bin_item_context_menu_restore">Eintrag wiederherstellen</string>
+    <string name="recycle_bin_restore_successful_message">Wiederherstellung erfolgreich</string>
+    <string name="recycle_bin_restore_failed_general_title">Wiederherstellung hat nicht geklappt</string>
     <string name="settings_title">Einstellungen</string>
     <string name="settings_category_general_title">Allgemein</string>
     <string name="settings_dark_theme_setting_title">Dunkler Modus</string>

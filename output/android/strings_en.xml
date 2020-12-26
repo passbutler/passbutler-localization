@@ -5,6 +5,7 @@
     <string name="general_file_extension_description">Pass\u00A0Butler Vault</string>
     <string name="general_okay">OK</string>
     <string name="general_cancel">Cancel</string>
+    <string name="general_search">Search</string>
     <string name="general_create_vault_failed_title">Create vault was not successful</string>
     <string name="general_create_vault_failed_already_existing_title">The chosen vault file already exists</string>
     <string name="general_open_vault_failed_title">Open vault was not successful</string>
@@ -75,6 +76,7 @@
     <string name="drawer_open_description">Open navigation menu</string>
     <string name="drawer_close_description">Close navigation menu</string>
     <string name="drawer_menu_item_overview">My Vault</string>
+    <string name="drawer_menu_recycle_bin">Recycle bin</string>
     <string name="drawer_menu_item_settings">Settings</string>
     <string name="drawer_menu_item_about">About</string>
     <string name="drawer_menu_item_logout">Logout</string>
@@ -82,7 +84,6 @@
     <string name="drawer_menu_item_homepage">Sicherheitskritisch.de</string>
     <string name="drawer_menu_item_googleplay">Review on Google Play</string>
     <string name="overview_title">My Vault</string>
-    <string name="overview_search_hint">Search</string>
     <string name="overview_last_sync_subtitle">Last synchronized: %1$s</string>
     <string name="overview_last_sync_never">Never</string>
     <string name="overview_empty_screen_title">No entries</string>
@@ -129,6 +130,12 @@
     <string name="itemauthorizations_empty_screen_title">No other users</string>
     <string name="itemauthorizations_empty_screen_description">On your Pass\u00A0Butler server are still no other users to share the item with.</string>
     <string name="itemauthorizations_save_failed_general_title">Save was not successful</string>
+    <string name="recycle_bin_title">Recycle bin</string>
+    <string name="recycle_bin_empty_screen_title">No entries</string>
+    <string name="recycle_bin_empty_screen_description">Still no entries deleted</string>
+    <string name="recycle_bin_item_context_menu_restore">Restore entry</string>
+    <string name="recycle_bin_restore_successful_message">Restoring successful</string>
+    <string name="recycle_bin_restore_failed_general_title">Restoring was not successful</string>
     <string name="settings_title">Settings</string>
     <string name="settings_category_general_title">General</string>
     <string name="settings_dark_theme_setting_title">Dark theme</string>
