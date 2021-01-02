@@ -805,6 +805,59 @@
             }
         },
         {
+            "name": "Premium",
+            "localizations": {
+                "premium_header": {
+                    "en": "Premium Key",
+                    "de": "Premium Key"
+                },
+                "premium_description_no_premium_key": {
+                    "en": "You need a Premium Key to use the full feature set of Pass\u00A0Butler:",
+                    "de": "Um alle Funktionen von Pass\u00A0Butler freizuschalten, benötigen Sie einen Premium Key."
+                },
+                "premium_register_premium_key_button_text": {
+                    "en": "Register Premium Key",
+                    "de": "Premium Key registrieren"
+                },
+                "premium_register_premium_key_successful_message": {
+                    "en": "The Premium Key was registered successfully",
+                    "de": "Der Premium Key wurde erfolgreich registriert"
+                },
+                "premium_register_premium_key_failed_general_title": {
+                    "en": "The Premium Key could not be registered",
+                    "de": "Der Premium Key konnte nicht registriert werden"
+                },
+                "premium_description_available_premium_key": {
+                    "en": "Pass\u00A0Butler was registered successfully to:",
+                    "de": "Pass\u00A0Butler wurde erfolgreich registriert auf:"
+                },
+                "premium_card_premium_key_email": {
+                    "en": "E-Mail",
+                    "de": "Email"
+                },
+                "premium_card_premium_key_id": {
+                    "en": "Premium Key ID",
+                    "de": "Premium Key ID"
+                },
+                "premium_remove_premium_key_button_text": {
+                    "en": "Remove Premium Key",
+                    "de": "Premium Key entfernen"
+                },
+                "premium_remove_premium_key_successful_message": {
+                    "en": "The Premium Key was removed successfully",
+                    "de": "Der Premium Key wurde erfolgreich entfernt"
+                },
+                "premium_remove_premium_key_failed_general_title": {
+                    "en": "The Premium Key could not be removed",
+                    "de": "Der Premium Key konnte nicht entfernt werden"
+                },
+                "premium_feature_requires_premium_key_general_title": {
+                    "en": "A Premium Key is required to use this feature",
+                    "de": "Für diese Funktion wird ein Premium Key benötigt"
+                }
+            }
+        },
+        {
             "name": "Register local user",
             "localizations": {
                 "register_local_user_title": {
