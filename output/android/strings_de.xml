@@ -78,6 +78,7 @@
     <string name="drawer_menu_item_overview">Mein Vault</string>
     <string name="drawer_menu_recycle_bin">Papierkorb</string>
     <string name="drawer_menu_item_settings">Einstellungen</string>
+    <string name="drawer_menu_import">Importieren</string>
     <string name="drawer_menu_item_about">Über / Lizenz</string>
     <string name="drawer_menu_item_logout">Abmelden</string>
     <string name="drawer_menu_category_external_links">Externe Links</string>
@@ -207,4 +208,18 @@
     <string name="register_local_user_failed_wrong_master_password_title">Master-Passwort ist nicht korrekt</string>
     <string name="register_local_user_failed_general_title">Registrierung hat nicht geklappt</string>
     <string name="register_local_user_failed_forbidden_title">Registrierung wurde von Server verweigert</string>
+    <string name="import_title">Passwörter importieren</string>
+    <string name="import_header">Passwörter importieren</string>
+    <string name="import_description">Importiere deine Passwörter aus anderen Passwortmanagern.</string>
+    <string name="import_keepassx2_header">Importieren von KeePassX 2 / KeePassXC</string>
+    <string name="import_keepassx2_description">Importiere deine Passwörter aus KeePassX 2 oder KeePassXC.</string>
+    <string name="import_keepassx2_button_text">Datei auswählen</string>
+    <string name="import_keepassx2_file_extension_description">KeePassX 2 / KeePassXC CSV export</string>
+    <string name="import_keepass2_header">Importieren von KeePass2</string>
+    <string name="import_keepass2_description">Importiere deine Passwörter aus KeePass2. Wähle “KeePass CSV (1.x)“ als Exportformat.</string>
+    <string name="import_keepass2_button_text">Datei auswählen</string>
+    <string name="import_keepass2_file_extension_description">KeePass CSV (1.x) export</string>
+    <string name="import_successful_message">Import von %1$s Einträgen erfolgreich</string>
+    <string name="import_failed_empty_import_file_title">Die Importdatei scheint keine gültigen Einträge zu enthalten</string>
+    <string name="import_failed_general_title">Import hat nicht geklappt</string>
 </resources>
