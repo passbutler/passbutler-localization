@@ -424,6 +424,10 @@
                     "en": "Copy URL",
                     "de": "URL kopieren"
                 },
+                "overview_item_context_menu_open_url": {
+                    "en": "Open URL",
+                    "de": "URL öffnen"
+                },
                 "overview_item_information_clipboard_successful_message": {
                     "en": "Copied to clipboard",
                     "de": "In Zwischenablage kopiert"
@@ -431,6 +435,10 @@
                 "overview_item_information_clipboard_failed_empty_title": {
                     "en": "Could not copy empty data to clipboard",
                     "de": "Leere Daten nicht in die Zwischenablage kopiert"
+                },
+                "overview_open_url_failed_title": {
+                    "en": "Could not open empty URL",
+                    "de": "Eine leere URL kann nicht geöffnet werden"
                 }
             }
         },

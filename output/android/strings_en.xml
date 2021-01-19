@@ -96,8 +96,10 @@
     <string name="overview_item_context_menu_copy_username">Copy username</string>
     <string name="overview_item_context_menu_copy_password">Copy password</string>
     <string name="overview_item_context_menu_copy_url">Copy URL</string>
+    <string name="overview_item_context_menu_open_url">Open URL</string>
     <string name="overview_item_information_clipboard_successful_message">Copied to clipboard</string>
     <string name="overview_item_information_clipboard_failed_empty_title">Could not copy empty data to clipboard</string>
+    <string name="overview_open_url_failed_title">Could not open empty URL</string>
     <string name="itemdetail_title_new">Create new item</string>
     <string name="itemdetail_title_edit">Show/edit item</string>
     <string name="itemdetail_details_header">Details</string>
