@@ -408,6 +408,10 @@
                     "en": "Logout was not successful",
                     "de": "Abmeldung hat nicht geklappt"
                 },
+                "overview_item_subtitle_username_missing": {
+                    "en": "No username stored",
+                    "de": "Kein Benutzername gespeichert"
+                },
                 "overview_item_context_menu_copy_username": {
                     "en": "Copy username",
                     "de": "Benutzernamen kopieren"

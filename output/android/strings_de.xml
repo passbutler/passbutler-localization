@@ -92,6 +92,7 @@
     <string name="overview_sync_successful_message">Synchronisation war erfolgreich</string>
     <string name="overview_sync_failed_message">Synchronisation hat nicht geklappt</string>
     <string name="overview_logout_failed_title">Abmeldung hat nicht geklappt</string>
+    <string name="overview_item_subtitle_username_missing">Kein Benutzername gespeichert</string>
     <string name="overview_item_context_menu_copy_username">Benutzernamen kopieren</string>
     <string name="overview_item_context_menu_copy_password">Passwort kopieren</string>
     <string name="overview_item_context_menu_copy_url">URL kopieren</string>

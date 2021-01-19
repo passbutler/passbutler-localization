@@ -92,6 +92,7 @@
     <string name="overview_sync_successful_message">Synchronization was successful</string>
     <string name="overview_sync_failed_message">Synchronization was not successful</string>
     <string name="overview_logout_failed_title">Logout was not successful</string>
+    <string name="overview_item_subtitle_username_missing">No username stored</string>
     <string name="overview_item_context_menu_copy_username">Copy username</string>
     <string name="overview_item_context_menu_copy_password">Copy password</string>
     <string name="overview_item_context_menu_copy_url">Copy URL</string>
