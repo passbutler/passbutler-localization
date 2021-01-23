@@ -380,6 +380,10 @@
                     "en": "My Vault",
                     "de": "Mein Vault"
                 },
+                "overview_sync_button_title": {
+                    "en": "Synchronize now",
+                    "de": "Jetzt aktualisieren"
+                },
                 "overview_last_sync_subtitle": {
                     "en": "Last synchronized: %1$s",
                     "de": "Zuletzt synchronisiert: %1$s"

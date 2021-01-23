@@ -85,6 +85,7 @@
     <string name="drawer_menu_item_homepage">Sicherheitskritisch.de</string>
     <string name="drawer_menu_item_googleplay">Review on Google Play</string>
     <string name="overview_title">My Vault</string>
+    <string name="overview_sync_button_title">Synchronize now</string>
     <string name="overview_last_sync_subtitle">Last synchronized: %1$s</string>
     <string name="overview_last_sync_never">Never</string>
     <string name="overview_empty_screen_title">No entries</string>
