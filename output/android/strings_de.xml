@@ -194,7 +194,7 @@
     <string name="premium_register_premium_key_successful_message">Der Premium Key wurde erfolgreich registriert</string>
     <string name="premium_register_premium_key_failed_general_title">Der Premium Key konnte nicht registriert werden</string>
     <string name="premium_description_available_premium_key">Pass\u00A0Butler wurde erfolgreich registriert auf:</string>
-    <string name="premium_card_premium_key_email">Email</string>
+    <string name="premium_card_premium_key_email">E-Mail</string>
     <string name="premium_card_premium_key_id">Premium Key ID</string>
     <string name="premium_remove_premium_key_button_text">Premium Key entfernen</string>
     <string name="premium_remove_premium_key_successful_message">Der Premium Key wurde erfolgreich entfernt</string>
