@@ -927,6 +927,10 @@
                 "register_local_user_failed_forbidden_title": {
                     "en": "The registration was rejected by the server",
                     "de": "Registrierung wurde von Server verweigert"
+                },
+                "register_local_user_failed_username_existing_title": {
+                    "en": "The username is already existing on the server",
+                    "de": "Der Benutzername ist bereits vergeben auf dem Server"
                 }
             }
         },
