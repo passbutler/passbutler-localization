@@ -218,6 +218,7 @@
     <string name="import_description">Import your passwords from other password managers.</string>
     <string name="import_keepassx2_header">Import from KeePassX 2 / KeePassXC</string>
     <string name="import_keepassx2_description">Import your passwords from KeePassX 2 or KeePassXC.</string>
+    <string name="import_keepassx2_language_hint">Important: Before the export you need to rename the recycle bin exactly to “Recycle Bin“! Otherwise deleted entries won't be recognized as such.</string>
     <string name="import_keepassx2_button_text">Select file to import</string>
     <string name="import_keepassx2_file_extension_description">KeePassX 2 / KeePassXC CSV export</string>
     <string name="import_keepass2_header">Import from KeePass2</string>

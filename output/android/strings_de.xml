@@ -218,6 +218,7 @@
     <string name="import_description">Importiere deine Passwörter aus anderen Passwortmanagern.</string>
     <string name="import_keepassx2_header">Importieren von KeePassX 2 / KeePassXC</string>
     <string name="import_keepassx2_description">Importiere deine Passwörter aus KeePassX 2 oder KeePassXC.</string>
+    <string name="import_keepassx2_language_hint">Wichtig: Vor dem Export muss der Papierkorb in “Recycle Bin“ umbenannt werden! Ansonsten werden gelöschte Einträge nicht als solche erkannt!</string>
     <string name="import_keepassx2_button_text">Datei auswählen</string>
     <string name="import_keepassx2_file_extension_description">KeePassX 2 / KeePassXC CSV export</string>
     <string name="import_keepass2_header">Importieren von KeePass2</string>
