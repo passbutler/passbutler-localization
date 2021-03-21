@@ -26,8 +26,10 @@
     <string name="form_serverurl_validation_error_invalid">Server URL nicht gültig</string>
     <string name="form_serverurl_validation_error_invalid_scheme">Server URL muss mit “https://“ beginnen</string>
     <string name="form_master_password_validation_error_empty">Master-Passwort nicht ausgefüllt</string>
-    <string name="menu_create_vault">Neuen Vault erstellen</string>
-    <string name="menu_open_vault">Vorhandenen Vault öffnen</string>
+    <string name="menu_create_vault">Neuen Vault erzeugen</string>
+    <string name="menu_open_vault">Vault öffnen</string>
+    <string name="menu_recent_vaults">Zuletzt geöffnet</string>
+    <string name="menu_recent_vaults_clear">Zurücksetzen</string>
     <string name="menu_close_vault">Vault schließen</string>
     <string name="menu_close_application">Schließen</string>
     <string name="autofill_activity_name">Ausfüllen mit Pass\u00A0Butler</string>

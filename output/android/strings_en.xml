@@ -27,7 +27,9 @@
     <string name="form_serverurl_validation_error_invalid_scheme">Server URL must start with “https://“</string>
     <string name="form_master_password_validation_error_empty">Master password is required</string>
     <string name="menu_create_vault">Create new vault</string>
-    <string name="menu_open_vault">Open existing vault</string>
+    <string name="menu_open_vault">Open vault</string>
+    <string name="menu_recent_vaults">Open recent vault</string>
+    <string name="menu_recent_vaults_clear">Clear history</string>
     <string name="menu_close_vault">Close vault</string>
     <string name="menu_close_application">Close</string>
     <string name="autofill_activity_name">AutoFill with Pass\u00A0Butler</string>

@@ -116,11 +116,19 @@
             "localizations": {
                 "menu_create_vault": {
                     "en": "Create new vault",
-                    "de": "Neuen Vault erstellen"
+                    "de": "Neuen Vault erzeugen"
                 },
                 "menu_open_vault": {
-                    "en": "Open existing vault",
-                    "de": "Vorhandenen Vault öffnen"
+                    "en": "Open vault",
+                    "de": "Vault öffnen"
+                },
+                "menu_recent_vaults": {
+                    "en": "Open recent vault",
+                    "de": "Zuletzt geöffnet"
+                },
+                "menu_recent_vaults_clear": {
+                    "en": "Clear history",
+                    "de": "Zurücksetzen"
                 },
                 "menu_close_vault": {
                     "en": "Close vault",
