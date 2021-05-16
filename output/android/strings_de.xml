@@ -103,6 +103,9 @@
     <string name="overview_item_information_clipboard_successful_message">In Zwischenablage kopiert</string>
     <string name="overview_item_information_clipboard_failed_empty_title">Leere Daten nicht in die Zwischenablage kopiert</string>
     <string name="overview_open_url_failed_title">Eine leere URL kann nicht geöffnet werden</string>
+    <string name="overview_logout_confirmation_title">Wirklich abmelden?</string>
+    <string name="overview_logout_confirmation_message">Beim Abmelden werden alle nicht-synchronisierten Einträge und Einstellungen unwiederbringlich gelöscht!</string>
+    <string name="overview_logout_confirmation_button_title">Abmelden</string>
     <string name="itemdetail_title_new">Neuen Eintrag anlegen</string>
     <string name="itemdetail_title_edit">Eintrag ansehen/bearbeiten</string>
     <string name="itemdetail_details_header">Details</string>
@@ -123,6 +126,8 @@
     <string name="itemdetail_authorizations_footer_teaser">Registrieren Sie sich bei einem Pass\u00A0Butler-Server, um den Zugang zu diesem Eintrag mit anderen Benutzern teilen zu können.</string>
     <string name="itemdetail_delete_header">Eintrag löschen</string>
     <string name="itemdetail_delete_button_title">Eintrag löschen</string>
+    <string name="itemdetail_delete_confirmation_title">Eintrag löschen?</string>
+    <string name="itemdetail_delete_confirmation_button_title">Löschen</string>
     <string name="itemdetail_save_button_title">Speichern</string>
     <string name="itemdetail_title_validation_error_empty">Titel nicht ausgefüllt</string>
     <string name="itemdetail_save_failed_general_title">Speichern hat nicht geklappt</string>

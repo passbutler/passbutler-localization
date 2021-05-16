@@ -103,6 +103,9 @@
     <string name="overview_item_information_clipboard_successful_message">Copied to clipboard</string>
     <string name="overview_item_information_clipboard_failed_empty_title">Could not copy empty data to clipboard</string>
     <string name="overview_open_url_failed_title">Could not open empty URL</string>
+    <string name="overview_logout_confirmation_title">Really logout?</string>
+    <string name="overview_logout_confirmation_message">When logging off, all non-synchronized entries and settings are irretrievably deleted!</string>
+    <string name="overview_logout_confirmation_button_title">Logout</string>
     <string name="itemdetail_title_new">Create new item</string>
     <string name="itemdetail_title_edit">Show/edit item</string>
     <string name="itemdetail_details_header">Details</string>
@@ -123,6 +126,8 @@
     <string name="itemdetail_authorizations_footer_teaser">Register on a Pass\u00A0Butler server to share the access to this item with other users.</string>
     <string name="itemdetail_delete_header">Delete item</string>
     <string name="itemdetail_delete_button_title">Delete item</string>
+    <string name="itemdetail_delete_confirmation_title">Really delete?</string>
+    <string name="itemdetail_delete_confirmation_button_title">Delete</string>
     <string name="itemdetail_save_button_title">Save</string>
     <string name="itemdetail_title_validation_error_empty">Title is required</string>
     <string name="itemdetail_save_failed_general_title">Save was not successful</string>

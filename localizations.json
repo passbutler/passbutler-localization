@@ -451,6 +451,18 @@
                 "overview_open_url_failed_title": {
                     "en": "Could not open empty URL",
                     "de": "Eine leere URL kann nicht geöffnet werden"
+                },
+                "overview_logout_confirmation_title": {
+                    "en": "Really logout?",
+                    "de": "Wirklich abmelden?"
+                },
+                "overview_logout_confirmation_message": {
+                    "en": "When logging off, all non-synchronized entries and settings are irretrievably deleted!",
+                    "de": "Beim Abmelden werden alle nicht-synchronisierten Einträge und Einstellungen unwiederbringlich gelöscht!"
+                },
+                "overview_logout_confirmation_button_title": {
+                    "en": "Logout",
+                    "de": "Abmelden"
                 }
             }
         },
@@ -536,6 +548,14 @@
                 "itemdetail_delete_button_title": {
                     "en": "Delete item",
                     "de": "Eintrag löschen"
+                },
+                "itemdetail_delete_confirmation_title": {
+                    "en": "Really delete?",
+                    "de": "Eintrag löschen?"
+                },
+                "itemdetail_delete_confirmation_button_title": {
+                    "en": "Delete",
+                    "de": "Löschen"
                 },
                 "itemdetail_save_button_title": {
                     "en": "Save",
