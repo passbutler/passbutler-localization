@@ -21,8 +21,7 @@ def __parseLocalizationFile(localizationsFilePath):
         return localizationsData
 
 def __generateAndroidLocalizations(localizationsData):
-    localizationTranslationFormatter = lambda localizationTranslationKey, localizationTranslationValue: '    <string name="{0}">{1}</string>'.format(localizationTranslationKey, localizationTranslationValue)
-    localizationTables = __generatedLocalizationTables(localizationsData, localizationTranslationFormatter)
+    localizationTables = __generatedLocalizationTables(localizationsData, __formatAndroidTranslation)
 
     localizationTableOutputDirectory = './output/android/'
     __ensuresDirectoryExistence(localizationTableOutputDirectory)
@@ -39,9 +38,12 @@ def __generateAndroidLocalizations(localizationsData):
             localizationTableOutput += '</resources>'
             localizationTableFile.writelines(localizationTableOutput)
 
+def __formatAndroidTranslation(localizationTranslationKey, localizationTranslationValue):
+    escapedLocalizationTranslationValue = localizationTranslationValue.replace("'", "\\'")
+    return '    <string name="{0}">{1}</string>'.format(localizationTranslationKey, escapedLocalizationTranslationValue)
+
 def __generateDesktopLocalizations(localizationsData):
-    localizationTranslationFormatter = lambda localizationTranslationKey, localizationTranslationValue: '{0} = {1}'.format(localizationTranslationKey, localizationTranslationValue)
-    localizationTables = __generatedLocalizationTables(localizationsData, localizationTranslationFormatter)
+    localizationTables = __generatedLocalizationTables(localizationsData, __formatDesktopTranslation)
 
     localizationTableOutputDirectory = './output/desktop/'
     __ensuresDirectoryExistence(localizationTableOutputDirectory)
@@ -55,6 +57,9 @@ def __generateDesktopLocalizations(localizationsData):
             localizationTableOutput = '# WARNING: AUTO GENERATED FILE - DO NOT MODIFY!\n\n'
             localizationTableOutput += '\n'.join(localizationTableTranslations)
             localizationTableFile.writelines(localizationTableOutput)
+
+def __formatDesktopTranslation(localizationTranslationKey, localizationTranslationValue):
+    return '{0} = {1}'.format(localizationTranslationKey, localizationTranslationValue)
 
 def __generatedLocalizationTables(localizationsData, localizationTranslationFormatter):
     localizationSections = localizationsData['sections']
