@@ -515,11 +515,11 @@
                 },
                 "itemdetail_authorizations_description_shared_item": {
                     "en": "The access to this item was granted by user “%1$s“ on the %2$s. You are permitted to view and edit the item.",
-                    "de": "Der Zugang zu diesem Eintag wurde von dem Benutzer “%1$s“ am %2$s mit Ihnen geteilt. Sie dürfen den Eintrag ansehen und bearbeiten."
+                    "de": "Der Zugang zu diesem Eintrag wurde von dem Benutzer “%1$s“ am %2$s mit Ihnen geteilt. Sie dürfen den Eintrag ansehen und bearbeiten."
                 },
                 "itemdetail_authorizations_description_shared_readonly_item": {
                     "en": "The access to this item was granted by user “%1$s“ on the %2$s. You are permitted to view the item only.",
-                    "de": "Der Zugang zu diesem Eintag wurde von dem Benutzer “%1$s“ am %2$s mit Ihnen geteilt. Sie dürfen den Eintrag lediglich ansehen."
+                    "de": "Der Zugang zu diesem Eintrag wurde von dem Benutzer “%1$s“ am %2$s mit Ihnen geteilt. Sie dürfen den Eintrag lediglich ansehen."
                 },
                 "itemdetail_authorizations_button_text": {
                     "en": "Share item",

@@ -117,8 +117,8 @@
     <string name="itemdetail_id_title">UUID</string>
     <string name="itemdetail_authorizations_header">Zugang teilen</string>
     <string name="itemdetail_authorizations_description_owned_item">Teilen Sie den Zugang zu diesem Eintrag mit anderen Benutzern Ihres Pass\u00A0Butler-Servers.</string>
-    <string name="itemdetail_authorizations_description_shared_item">Der Zugang zu diesem Eintag wurde von dem Benutzer “%1$s“ am %2$s mit Ihnen geteilt. Sie dürfen den Eintrag ansehen und bearbeiten.</string>
-    <string name="itemdetail_authorizations_description_shared_readonly_item">Der Zugang zu diesem Eintag wurde von dem Benutzer “%1$s“ am %2$s mit Ihnen geteilt. Sie dürfen den Eintrag lediglich ansehen.</string>
+    <string name="itemdetail_authorizations_description_shared_item">Der Zugang zu diesem Eintrag wurde von dem Benutzer “%1$s“ am %2$s mit Ihnen geteilt. Sie dürfen den Eintrag ansehen und bearbeiten.</string>
+    <string name="itemdetail_authorizations_description_shared_readonly_item">Der Zugang zu diesem Eintrag wurde von dem Benutzer “%1$s“ am %2$s mit Ihnen geteilt. Sie dürfen den Eintrag lediglich ansehen.</string>
     <string name="itemdetail_authorizations_button_text">Zugang teilen</string>
     <string name="itemdetail_authorizations_footer_teaser">Registrieren Sie sich bei einem Pass\u00A0Butler-Server, um den Zugang zu diesem Eintrag mit anderen Benutzern teilen zu können.</string>
     <string name="itemdetail_delete_header">Eintrag löschen</string>
