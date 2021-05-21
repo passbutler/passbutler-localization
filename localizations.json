@@ -1002,8 +1002,12 @@
                     "de": "Importieren von KeePass2"
                 },
                 "import_keepass2_description": {
-                    "en": "Import your passwords from KeePass2. Select “KeePass CSV (1.x)“ as export format.",
-                    "de": "Importiere deine Passwörter aus KeePass2. Wähle “KeePass CSV (1.x)“ als Exportformat."
+                    "en": "Import your passwords from KeePass2.",
+                    "de": "Importiere deine Passwörter aus KeePass2."
+                },
+                "import_keepass2_export_format_hint": {
+                    "en": "Select “KeePass CSV (1.x)“ as export format.",
+                    "de": "Wähle “KeePass CSV (1.x)“ als Exportformat."
                 },
                 "import_keepass2_button_text": {
                     "en": "Select file to import",

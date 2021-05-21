@@ -229,7 +229,8 @@
     <string name="import_keepassx2_button_text">Select file to import</string>
     <string name="import_keepassx2_file_extension_description">KeePassX 2 / KeePassXC CSV export</string>
     <string name="import_keepass2_header">Import from KeePass2</string>
-    <string name="import_keepass2_description">Import your passwords from KeePass2. Select “KeePass CSV (1.x)“ as export format.</string>
+    <string name="import_keepass2_description">Import your passwords from KeePass2.</string>
+    <string name="import_keepass2_export_format_hint">Select “KeePass CSV (1.x)“ as export format.</string>
     <string name="import_keepass2_button_text">Select file to import</string>
     <string name="import_keepass2_file_extension_description">KeePass CSV (1.x) export</string>
     <string name="import_successful_message">Import of %1$s entries successful</string>
