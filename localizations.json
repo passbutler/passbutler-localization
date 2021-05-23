@@ -24,6 +24,14 @@
                     "en": "Search",
                     "de": "Suchen"
                 },
+                "general_confirm": {
+                    "en": "Confirm",
+                    "de": "Bestätigen"
+                },
+                "general_close_vault_confirmation_title": {
+                    "en": "Close current vault?",
+                    "de": "Aktuellen Vault schließen?"
+                },
                 "general_create_vault_failed_title": {
                     "en": "Create vault was not successful",
                     "de": "Erstellen des Vaults hat leider nicht geklappt"
