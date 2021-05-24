@@ -95,6 +95,14 @@
                 "general_relative_date_unit_year_other": {
                     "en": "years",
                     "de": "Jahren"
+                },
+                "general_copy_button_title": {
+                    "en": "Copy “%1$s“",
+                    "de": "“%1$s“ kopieren"
+                },
+                "general_copy_to_clipboard_successful_message": {
+                    "en": "Copied to clipboard",
+                    "de": "In Zwischenablage kopiert"
                 }
             }
         },
@@ -994,8 +1002,8 @@
                     "de": "Importiere deine Passwörter aus KeePassX 2 oder KeePassXC."
                 },
                 "import_keepassx2_language_hint": {
-                    "en": "Important: Before the export you need to rename the recycle bin exactly to “Recycle Bin“! Otherwise deleted entries won't be recognized as such.",
-                    "de": "Wichtig: Vor dem Export muss der Papierkorb in “Recycle Bin“ umbenannt werden! Ansonsten werden gelöschte Einträge nicht als solche erkannt!"
+                    "en": "Important: Before the export you need to rename the recycle bin exactly to “%1$s“! Otherwise deleted entries won't be recognized as such.",
+                    "de": "Wichtig: Vor dem Export muss der Papierkorb in “%1$s“ umbenannt werden! Ansonsten werden gelöschte Einträge nicht als solche erkannt!"
                 },
                 "import_keepassx2_button_text": {
                     "en": "Select file to import",

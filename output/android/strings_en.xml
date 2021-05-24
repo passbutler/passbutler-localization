@@ -24,6 +24,8 @@
     <string name="general_relative_date_unit_month_other">months</string>
     <string name="general_relative_date_unit_year_one">year</string>
     <string name="general_relative_date_unit_year_other">years</string>
+    <string name="general_copy_button_title">Copy “%1$s“</string>
+    <string name="general_copy_to_clipboard_successful_message">Copied to clipboard</string>
     <string name="form_serverurl_validation_error_empty">Server URL is required</string>
     <string name="form_serverurl_validation_error_invalid">Server URL is invalid</string>
     <string name="form_serverurl_validation_error_invalid_scheme">Server URL must start with “https://“</string>
@@ -227,7 +229,7 @@
     <string name="import_description">Import your passwords from other password managers.</string>
     <string name="import_keepassx2_header">Import from KeePassX 2 / KeePassXC</string>
     <string name="import_keepassx2_description">Import your passwords from KeePassX 2 or KeePassXC.</string>
-    <string name="import_keepassx2_language_hint">Important: Before the export you need to rename the recycle bin exactly to “Recycle Bin“! Otherwise deleted entries won\'t be recognized as such.</string>
+    <string name="import_keepassx2_language_hint">Important: Before the export you need to rename the recycle bin exactly to “%1$s“! Otherwise deleted entries won\'t be recognized as such.</string>
     <string name="import_keepassx2_button_text">Select file to import</string>
     <string name="import_keepassx2_file_extension_description">KeePassX 2 / KeePassXC CSV export</string>
     <string name="import_keepass2_header">Import from KeePass2</string>

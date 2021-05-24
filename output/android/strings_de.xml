@@ -24,6 +24,8 @@
     <string name="general_relative_date_unit_month_other">Monaten</string>
     <string name="general_relative_date_unit_year_one">Jahr</string>
     <string name="general_relative_date_unit_year_other">Jahren</string>
+    <string name="general_copy_button_title">“%1$s“ kopieren</string>
+    <string name="general_copy_to_clipboard_successful_message">In Zwischenablage kopiert</string>
     <string name="form_serverurl_validation_error_empty">Server URL nicht ausgefüllt</string>
     <string name="form_serverurl_validation_error_invalid">Server URL nicht gültig</string>
     <string name="form_serverurl_validation_error_invalid_scheme">Server URL muss mit “https://“ beginnen</string>
@@ -227,7 +229,7 @@
     <string name="import_description">Importiere deine Passwörter aus anderen Passwortmanagern.</string>
     <string name="import_keepassx2_header">Importieren von KeePassX 2 / KeePassXC</string>
     <string name="import_keepassx2_description">Importiere deine Passwörter aus KeePassX 2 oder KeePassXC.</string>
-    <string name="import_keepassx2_language_hint">Wichtig: Vor dem Export muss der Papierkorb in “Recycle Bin“ umbenannt werden! Ansonsten werden gelöschte Einträge nicht als solche erkannt!</string>
+    <string name="import_keepassx2_language_hint">Wichtig: Vor dem Export muss der Papierkorb in “%1$s“ umbenannt werden! Ansonsten werden gelöschte Einträge nicht als solche erkannt!</string>
     <string name="import_keepassx2_button_text">Datei auswählen</string>
     <string name="import_keepassx2_file_extension_description">KeePassX 2 / KeePassXC CSV export</string>
     <string name="import_keepass2_header">Importieren von KeePass2</string>
