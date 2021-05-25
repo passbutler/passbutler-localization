@@ -36,6 +36,10 @@
                     "en": "Close current vault?",
                     "de": "Aktuellen Vault schließen?"
                 },
+                "general_close_vault_confirmation_message": {
+                    "en": "Unsaved changes may get lost!",
+                    "de": "Ungespeicherte Änderungen können verloren gehen!"
+                },
                 "general_create_vault_failed_title": {
                     "en": "Create vault was not successful",
                     "de": "Erstellen des Vaults hat leider nicht geklappt"

@@ -9,6 +9,7 @@
     <string name="general_confirm">Bestätigen</string>
     <string name="general_remove">Entfernen</string>
     <string name="general_close_vault_confirmation_title">Aktuellen Vault schließen?</string>
+    <string name="general_close_vault_confirmation_message">Ungespeicherte Änderungen können verloren gehen!</string>
     <string name="general_create_vault_failed_title">Erstellen des Vaults hat leider nicht geklappt</string>
     <string name="general_create_vault_failed_already_existing_title">Das gewählte Vault existiert bereits</string>
     <string name="general_open_vault_failed_title">Öffnen des Vaults hat leider nicht geklappt</string>
