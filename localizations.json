@@ -32,6 +32,10 @@
                     "en": "Remove",
                     "de": "Entfernen"
                 },
+                "general_discard": {
+                    "en": "Discard",
+                    "de": "Verwerfen"
+                },
                 "general_close_vault_confirmation_title": {
                     "en": "Close current vault?",
                     "de": "Aktuellen Vault schließen?"
@@ -600,6 +604,14 @@
                 "itemdetail_delete_failed_general_title": {
                     "en": "Deletion was not successful",
                     "de": "Löschen hat nicht geklappt"
+                },
+                "itemdetail_discard_changes_confirmation_title": {
+                    "en": "Discard changes?",
+                    "de": "Änderungen verwerfen?"
+                },
+                "itemdetail_discard_changes_confirmation_message": {
+                    "en": "There are unsaved changes. Do you really want to discard them?",
+                    "de": "Es gibt ungespeicherte Änderungen. Willst du diese wirklich verwerfen?"
                 }
             }
         },

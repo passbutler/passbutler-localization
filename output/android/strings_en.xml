@@ -8,6 +8,7 @@
     <string name="general_search">Search</string>
     <string name="general_confirm">Confirm</string>
     <string name="general_remove">Remove</string>
+    <string name="general_discard">Discard</string>
     <string name="general_close_vault_confirmation_title">Close current vault?</string>
     <string name="general_close_vault_confirmation_message">Unsaved changes may get lost!</string>
     <string name="general_create_vault_failed_title">Create vault was not successful</string>
@@ -139,6 +140,8 @@
     <string name="itemdetail_save_failed_general_title">Save was not successful</string>
     <string name="itemdetail_delete_successful_message">Deletion successful</string>
     <string name="itemdetail_delete_failed_general_title">Deletion was not successful</string>
+    <string name="itemdetail_discard_changes_confirmation_title">Discard changes?</string>
+    <string name="itemdetail_discard_changes_confirmation_message">There are unsaved changes. Do you really want to discard them?</string>
     <string name="itemauthorizations_title">Share item</string>
     <string name="itemauthorizations_header">Share item</string>
     <string name="itemauthorizations_description">Decide with which users you share the entry. You can choose if the user is only allowed to view the item or also allowed to edit the item.</string>
