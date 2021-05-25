@@ -7,6 +7,7 @@
     <string name="general_cancel">Cancel</string>
     <string name="general_search">Search</string>
     <string name="general_confirm">Confirm</string>
+    <string name="general_remove">Remove</string>
     <string name="general_close_vault_confirmation_title">Close current vault?</string>
     <string name="general_create_vault_failed_title">Create vault was not successful</string>
     <string name="general_create_vault_failed_already_existing_title">The chosen vault file already exists</string>
@@ -208,6 +209,8 @@
     <string name="premium_card_premium_key_email">Email</string>
     <string name="premium_card_premium_key_id">Premium Key ID</string>
     <string name="premium_remove_premium_key_button_text">Remove Premium Key</string>
+    <string name="premium_remove_premium_key_confirmation_title">Remove Premium Key?</string>
+    <string name="premium_remove_premium_key_confirmation_message">All features that require a Premium Key, won\'t be available anymore.</string>
     <string name="premium_remove_premium_key_successful_message">The Premium Key was removed successfully</string>
     <string name="premium_remove_premium_key_failed_general_title">The Premium Key could not be removed</string>
     <string name="premium_feature_requires_premium_key_general_title">A Premium Key is required to use this feature</string>

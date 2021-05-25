@@ -28,6 +28,10 @@
                     "en": "Confirm",
                     "de": "Bestätigen"
                 },
+                "general_remove": {
+                    "en": "Remove",
+                    "de": "Entfernen"
+                },
                 "general_close_vault_confirmation_title": {
                     "en": "Close current vault?",
                     "de": "Aktuellen Vault schließen?"
@@ -906,6 +910,14 @@
                 "premium_remove_premium_key_button_text": {
                     "en": "Remove Premium Key",
                     "de": "Premium Key entfernen"
+                },
+                "premium_remove_premium_key_confirmation_title": {
+                    "en": "Remove Premium Key?",
+                    "de": "Premium Key entfernen?"
+                },
+                "premium_remove_premium_key_confirmation_message": {
+                    "en": "All features that require a Premium Key, won't be available anymore.",
+                    "de": "Alle Funktionen, die einen Premium Key erfordern, werden nicht mehr verfügbar sein."
                 },
                 "premium_remove_premium_key_successful_message": {
                     "en": "The Premium Key was removed successfully",
