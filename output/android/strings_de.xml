@@ -151,6 +151,8 @@
     <string name="itemauthorizations_empty_screen_title">Noch keine Benutzer</string>
     <string name="itemauthorizations_empty_screen_description">Auf Ihrem Pass\u00A0Butler-Server existieren außer Ihnen noch keine weiteren Benutzer mit denen Sie den Eintrag teilen können.</string>
     <string name="itemauthorizations_save_failed_general_title">Speichern hat nicht geklappt</string>
+    <string name="itemauthorizations_discard_changes_confirmation_title">Änderungen verwerfen?</string>
+    <string name="itemauthorizations_discard_changes_confirmation_message">Es gibt ungespeicherte Änderungen. Willst du diese wirklich verwerfen?</string>
     <string name="recycle_bin_title">Papierkorb</string>
     <string name="recycle_bin_empty_screen_title">Noch keine Einträge</string>
     <string name="recycle_bin_empty_screen_description">Es wurden noch keine Einträge gelöscht</string>

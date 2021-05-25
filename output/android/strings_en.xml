@@ -151,6 +151,8 @@
     <string name="itemauthorizations_empty_screen_title">No other users</string>
     <string name="itemauthorizations_empty_screen_description">On your Pass\u00A0Butler server are still no other users to share the item with.</string>
     <string name="itemauthorizations_save_failed_general_title">Save was not successful</string>
+    <string name="itemauthorizations_discard_changes_confirmation_title">Discard changes?</string>
+    <string name="itemauthorizations_discard_changes_confirmation_message">There are unsaved changes. Do you really want to discard them?</string>
     <string name="recycle_bin_title">Recycle bin</string>
     <string name="recycle_bin_empty_screen_title">No entries</string>
     <string name="recycle_bin_empty_screen_description">Still no entries deleted</string>

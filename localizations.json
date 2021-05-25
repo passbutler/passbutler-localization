@@ -653,6 +653,14 @@
                 "itemauthorizations_save_failed_general_title": {
                     "en": "Save was not successful",
                     "de": "Speichern hat nicht geklappt"
+                },
+                "itemauthorizations_discard_changes_confirmation_title": {
+                    "en": "Discard changes?",
+                    "de": "Änderungen verwerfen?"
+                },
+                "itemauthorizations_discard_changes_confirmation_message": {
+                    "en": "There are unsaved changes. Do you really want to discard them?",
+                    "de": "Es gibt ungespeicherte Änderungen. Willst du diese wirklich verwerfen?"
                 }
             }
         },
