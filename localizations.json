@@ -36,6 +36,10 @@
                     "en": "Discard",
                     "de": "Verwerfen"
                 },
+                "general_accept": {
+                    "en": "Accept",
+                    "de": "Übernehmen"
+                },
                 "general_close_vault_confirmation_title": {
                     "en": "Close current vault?",
                     "de": "Aktuellen Vault schließen?"
@@ -521,6 +525,14 @@
                     "en": "Password",
                     "de": "Passwort"
                 },
+                "itemdetail_password_generator_text": {
+                    "en": "%1$s a new and secure password",
+                    "de": "%1$s ein neues und sicheres Passwort"
+                },
+                "itemdetail_password_generator_generate_word": {
+                    "en": "Generate",
+                    "de": "Erzeuge"
+                },
                 "itemdetail_url_hint": {
                     "en": "URL",
                     "de": "URL"
@@ -612,6 +624,43 @@
                 "itemdetail_discard_changes_confirmation_message": {
                     "en": "There are unsaved changes. Do you really want to discard them?",
                     "de": "Es gibt ungespeicherte Änderungen. Willst du diese wirklich verwerfen?"
+                }
+            }
+        },
+        {
+            "name": "Password Generator",
+            "localizations": {
+                "passwordgenerator_dialog_title": {
+                    "en": "Generated password:",
+                    "de": "Erzeugtes Passwort:"
+                },
+                "passwordgenerator_dialog_length_title": {
+                    "en": "Desired length:",
+                    "de": "Gewünschte Länge:"
+                },
+                "passwordgenerator_dialog_character_types_title": {
+                    "en": "Included categories:",
+                    "de": "Enthaltene Kategorien:"
+                },
+                "passwordgenerator_dialog_character_type_lowercase": {
+                    "en": "Lowercase",
+                    "de": "Kleinbuchstaben"
+                },
+                "passwordgenerator_dialog_character_type_uppercase": {
+                    "en": "Uppercase",
+                    "de": "Großbuchstaben"
+                },
+                "passwordgenerator_dialog_character_type_digits": {
+                    "en": "Digits",
+                    "de": "Zahlen"
+                },
+                "passwordgenerator_dialog_character_type_symbols": {
+                    "en": "Symbols",
+                    "de": "Symbole"
+                },
+                "passwordgenerator_dialog_missing_character_types_error": {
+                    "en": "No categories selected",
+                    "de": "Keine Kategorien gewählt"
                 }
             }
         },

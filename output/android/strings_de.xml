@@ -9,6 +9,7 @@
     <string name="general_confirm">Bestätigen</string>
     <string name="general_remove">Entfernen</string>
     <string name="general_discard">Verwerfen</string>
+    <string name="general_accept">Übernehmen</string>
     <string name="general_close_vault_confirmation_title">Aktuellen Vault schließen?</string>
     <string name="general_close_vault_confirmation_message">Ungespeicherte Änderungen können verloren gehen!</string>
     <string name="general_create_vault_failed_title">Erstellen des Vaults hat leider nicht geklappt</string>
@@ -119,6 +120,8 @@
     <string name="itemdetail_title_hint">Titel</string>
     <string name="itemdetail_username_hint">Benutzername</string>
     <string name="itemdetail_password_hint">Passwort</string>
+    <string name="itemdetail_password_generator_text">%1$s ein neues und sicheres Passwort</string>
+    <string name="itemdetail_password_generator_generate_word">Erzeuge</string>
     <string name="itemdetail_url_hint">URL</string>
     <string name="itemdetail_notes_hint">Notizen</string>
     <string name="itemdetail_information_header">Informationen</string>
@@ -142,6 +145,14 @@
     <string name="itemdetail_delete_failed_general_title">Löschen hat nicht geklappt</string>
     <string name="itemdetail_discard_changes_confirmation_title">Änderungen verwerfen?</string>
     <string name="itemdetail_discard_changes_confirmation_message">Es gibt ungespeicherte Änderungen. Willst du diese wirklich verwerfen?</string>
+    <string name="passwordgenerator_dialog_title">Erzeugtes Passwort:</string>
+    <string name="passwordgenerator_dialog_length_title">Gewünschte Länge:</string>
+    <string name="passwordgenerator_dialog_character_types_title">Enthaltene Kategorien:</string>
+    <string name="passwordgenerator_dialog_character_type_lowercase">Kleinbuchstaben</string>
+    <string name="passwordgenerator_dialog_character_type_uppercase">Großbuchstaben</string>
+    <string name="passwordgenerator_dialog_character_type_digits">Zahlen</string>
+    <string name="passwordgenerator_dialog_character_type_symbols">Symbole</string>
+    <string name="passwordgenerator_dialog_missing_character_types_error">Keine Kategorien gewählt</string>
     <string name="itemauthorizations_title">Zugang teilen</string>
     <string name="itemauthorizations_header">Zugang teilen</string>
     <string name="itemauthorizations_description">Entscheiden Sie mit welchen Benutzern Sie den Eintrag teilen möchten. Sie können wählen ob der jeweilige Benutzer den Eintrag lediglich ansehen oder auch bearbeiten darf.</string>

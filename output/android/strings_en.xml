@@ -9,6 +9,7 @@
     <string name="general_confirm">Confirm</string>
     <string name="general_remove">Remove</string>
     <string name="general_discard">Discard</string>
+    <string name="general_accept">Accept</string>
     <string name="general_close_vault_confirmation_title">Close current vault?</string>
     <string name="general_close_vault_confirmation_message">Unsaved changes may get lost!</string>
     <string name="general_create_vault_failed_title">Create vault was not successful</string>
@@ -119,6 +120,8 @@
     <string name="itemdetail_title_hint">Title</string>
     <string name="itemdetail_username_hint">Username</string>
     <string name="itemdetail_password_hint">Password</string>
+    <string name="itemdetail_password_generator_text">%1$s a new and secure password</string>
+    <string name="itemdetail_password_generator_generate_word">Generate</string>
     <string name="itemdetail_url_hint">URL</string>
     <string name="itemdetail_notes_hint">Notes</string>
     <string name="itemdetail_information_header">Information</string>
@@ -142,6 +145,14 @@
     <string name="itemdetail_delete_failed_general_title">Deletion was not successful</string>
     <string name="itemdetail_discard_changes_confirmation_title">Discard changes?</string>
     <string name="itemdetail_discard_changes_confirmation_message">There are unsaved changes. Do you really want to discard them?</string>
+    <string name="passwordgenerator_dialog_title">Generated password:</string>
+    <string name="passwordgenerator_dialog_length_title">Desired length:</string>
+    <string name="passwordgenerator_dialog_character_types_title">Included categories:</string>
+    <string name="passwordgenerator_dialog_character_type_lowercase">Lowercase</string>
+    <string name="passwordgenerator_dialog_character_type_uppercase">Uppercase</string>
+    <string name="passwordgenerator_dialog_character_type_digits">Digits</string>
+    <string name="passwordgenerator_dialog_character_type_symbols">Symbols</string>
+    <string name="passwordgenerator_dialog_missing_character_types_error">No categories selected</string>
     <string name="itemauthorizations_title">Share item</string>
     <string name="itemauthorizations_header">Share item</string>
     <string name="itemauthorizations_description">Decide with which users you share the entry. You can choose if the user is only allowed to view the item or also allowed to edit the item.</string>
