@@ -1053,9 +1053,13 @@
                     "en": "Registration was not successful",
                     "de": "Registrierung hat nicht geklappt"
                 },
+                "register_local_user_failed_unauthorized_title": {
+                    "en": "Invitation code is incorrect",
+                    "de": "Einladungs-Code ist nicht korrekt"
+                },
                 "register_local_user_failed_forbidden_title": {
-                    "en": "The registration was rejected by the server",
-                    "de": "Registrierung wurde von Server verweigert"
+                    "en": "Registration is not enabled on server",
+                    "de": "Registrierung ist auf Server nicht aktiviert"
                 },
                 "register_local_user_failed_username_existing_title": {
                     "en": "The username is already existing on the server",

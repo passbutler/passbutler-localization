@@ -242,7 +242,8 @@
     <string name="register_local_user_successful_message">Registration successful</string>
     <string name="register_local_user_failed_wrong_master_password_title">Master password is incorrect</string>
     <string name="register_local_user_failed_general_title">Registration was not successful</string>
-    <string name="register_local_user_failed_forbidden_title">The registration was rejected by the server</string>
+    <string name="register_local_user_failed_unauthorized_title">Invitation code is incorrect</string>
+    <string name="register_local_user_failed_forbidden_title">Registration is not enabled on server</string>
     <string name="register_local_user_failed_username_existing_title">The username is already existing on the server</string>
     <string name="import_title">Import passwords</string>
     <string name="import_header">Import passwords</string>
