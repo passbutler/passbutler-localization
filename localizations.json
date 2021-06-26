@@ -8,9 +8,29 @@
                     "en": "Pass\u00A0Butler",
                     "de": "Pass\u00A0Butler"
                 },
+                "general_app_description": {
+                    "en": "Private Cloud Password Manager",
+                    "de": "Private Cloud Passwort Manager"
+                },
                 "general_file_extension_description": {
                     "en": "Pass\u00A0Butler Vault",
                     "de": "Pass\u00A0Butler Vault"
+                },
+                "general_serverurl_hint": {
+                    "en": "Server URL",
+                    "de": "Server URL"
+                },
+                "general_username_hint": {
+                    "en": "Username",
+                    "de": "Benutzername"
+                },
+                "general_master_password_hint": {
+                    "en": "Master password",
+                    "de": "Master-Passwort"
+                },
+                "general_master_password_confirmation_hint": {
+                    "en": "Master password (confirmation)",
+                    "de": "Master-Passwort (Bestätigung)"
                 },
                 "general_okay": {
                     "en": "OK",
@@ -39,6 +59,18 @@
                 "general_accept": {
                     "en": "Accept",
                     "de": "Übernehmen"
+                },
+                "general_back": {
+                    "en": "Back",
+                    "de": "Zurück"
+                },
+                "general_next": {
+                    "en": "Next",
+                    "de": "Weiter"
+                },
+                "general_done": {
+                    "en": "Done",
+                    "de": "Fertig"
                 },
                 "general_close_vault_confirmation_title": {
                     "en": "Close current vault?",
@@ -137,6 +169,10 @@
                     "en": "Server URL must start with “https://“",
                     "de": "Server URL muss mit “https://“ beginnen"
                 },
+                "form_username_validation_error_empty": {
+                    "en": "Username is required",
+                    "de": "Benutzername nicht ausgefüllt"
+                },
                 "form_master_password_validation_error_empty": {
                     "en": "Master password is required",
                     "de": "Master-Passwort nicht ausgefüllt"
@@ -206,35 +242,68 @@
             }
         },
         {
-            "name": "Welcome",
+            "name": "Introduction",
             "localizations": {
-                "welcome_title": {
-                    "en": "Welcome to Pass\u00A0Butler",
-                    "de": "Willkommen bei Pass\u00A0Butler"
+                "introduction_title": {
+                    "en": "Welcome",
+                    "de": "Willkommen"
                 },
-                "welcome_create_vault_headline": {
-                    "en": "Create new vault",
-                    "de": "Neuen Vault erstellen"
+                "introduction_create_user_title": {
+                    "en": "New to Pass\u00A0Butler?",
+                    "de": "Neu bei Pass\u00A0Butler?"
                 },
-                "welcome_create_vault_description": {
-                    "en": "If you are new to Pass\u00A0Butler, just create your password vault:",
-                    "de": "Wenn du Pass\u00A0Butler das erste Mal verwendest, erstelle deinen Vault:"
+                "introduction_create_user_description": {
+                    "en": "If you are using Pass\u00A0Butler for the first time, get started with the quick setup:",
+                    "de": "Wenn du Pass\u00A0Butler das erste Mal benutzt, starte direkt mit der kurzen Einrichtung:"
                 },
-                "welcome_create_vault_button_text": {
-                    "en": "Create vault",
-                    "de": "Vault erstellen"
+                "introduction_create_user_button_text": {
+                    "en": "Get started",
+                    "de": "Jetzt starten"
                 },
-                "welcome_open_vault_headline": {
-                    "en": "Open existing vault",
-                    "de": "Vorhandenen Vault öffnen"
+                "introduction_login_user_title": {
+                    "en": "Already used Pass\u00A0Butler?",
+                    "de": "Pass\u00A0Butler bereits genutzt?"
                 },
-                "welcome_open_vault_description": {
-                    "en": "If you have already a vault file, you can open it:",
-                    "de": "Öffne deinen vorhandenen Vault, wenn du schon einen hast:"
+                "introduction_login_user_description": {
+                    "en": "If you have already used Pass\u00A0Butler, sign in with your account:",
+                    "de": "Wenn du Pass\u00A0Butler bereits genutzt hast, dann melde dich mit deinem Benutzerkonto an:"
                 },
-                "welcome_open_vault_button_text": {
-                    "en": "Open vault",
-                    "de": "Vault öffnen"
+                "introduction_login_user_button_text": {
+                    "en": "Sign in now",
+                    "de": "Jetzt anmelden"
+                }
+            }
+        },
+        {
+            "name": "Create local user",
+            "localizations": {
+                "create_local_user_step_title": {
+                    "en": "Step %1$d of %2$d",
+                    "de": "Schritt %1$d von %2$d"
+                },
+                "create_local_user_step_username_title": {
+                    "en": "Choose your username.",
+                    "de": "Wähle deinen Benutzernamen."
+                },
+                "create_local_user_step_username_hint_text": {
+                    "en": "You can just take your email address, for example.",
+                    "de": "Du kannst z.B. einfach deine E-Mail-Adresse nehmen."
+                },
+                "create_local_user_step_master_password_title": {
+                    "en": "Choose a secure master password.",
+                    "de": "Wähle ein sicheres Master-Passwort."
+                },
+                "create_local_user_step_master_password_hint_text": {
+                    "en": "The master password protects all your normal passwords and should be as difficult as possible to guess (e.g. a nonsensical sentence whose content has nothing to do with you).",
+                    "de": "Das Master-Passwort schützt all deine normalen Passwörter und sollte möglichst schwer zu erraten sein (z.B. ein unsinniger Satz, dessen Inhalt nichts mit dir zu tun hat)."
+                },
+                "create_local_user_step_master_password_confirm_validation_error_different": {
+                    "en": "Master password confirmation is different",
+                    "de": "Master-Passwort stimmt nicht überein"
+                },
+                "create_local_user_failed_general_title": {
+                    "en": "Setup was not successful",
+                    "de": "Einrichtung hat nicht geklappt"
                 }
             }
         },
@@ -242,43 +311,23 @@
             "name": "Login",
             "localizations": {
                 "login_title": {
-                    "en": "Pass\u00A0Butler Login",
+                    "en": "Pass\u00A0Butler Sign in",
                     "de": "Pass\u00A0Butler Anmelden"
                 },
                 "login_headline": {
-                    "en": "Welcome to Pass\u00A0Butler",
-                    "de": "Willkommen bei Pass\u00A0Butler"
-                },
-                "login_description": {
-                    "en": "Please sign in to your server or create a local account if you use Pass\u00A0Butler the first time",
-                    "de": "Melde dich an deinem Pass\u00A0Butler Server an oder erstelle ein lokales Benutzerkonto wenn du Pass\u00A0Butler das erste Mal verwendest"
-                },
-                "login_serverurl_hint": {
-                    "en": "Server URL",
-                    "de": "Server URL"
-                },
-                "login_username_hint": {
-                    "en": "Username",
-                    "de": "Benutzername"
-                },
-                "login_master_password_hint": {
-                    "en": "Master password",
-                    "de": "Master-Passwort"
-                },
-                "login_local_login_label": {
-                    "en": "Local user account",
-                    "de": "Lokales Benutzerkonto"
-                },
-                "login_button_text": {
-                    "en": "Log in",
+                    "en": "Sign in",
                     "de": "Anmelden"
                 },
-                "login_username_validation_error_empty": {
-                    "en": "Username is required",
-                    "de": "Benutzername nicht ausgefüllt"
+                "login_description": {
+                    "en": "Sign in with your existing account.",
+                    "de": "Melde dich im folgenden mit deinem existierenden Benutzerkonto an."
+                },
+                "login_button_text": {
+                    "en": "Sign in",
+                    "de": "Anmelden"
                 },
                 "login_failed_general_title": {
-                    "en": "Login was not successful",
+                    "en": "Sign in was not successful",
                     "de": "Anmeldung hat nicht geklappt"
                 },
                 "login_failed_unauthorized_title": {
@@ -364,8 +413,8 @@
                     "de": "Pass\u00A0Butler"
                 },
                 "drawer_header_usertype_local": {
-                    "en": "Register on server",
-                    "de": "Benutzerkonto registrieren"
+                    "en": "Sign in",
+                    "de": "Anmelden"
                 },
                 "drawer_open_description": {
                     "en": "Open navigation menu",
@@ -578,8 +627,8 @@
                     "de": "Zugang teilen"
                 },
                 "itemdetail_authorizations_footer_teaser": {
-                    "en": "Register on a Pass\u00A0Butler server to share the access to this item with other users.",
-                    "de": "Registrieren Sie sich bei einem Pass\u00A0Butler-Server, um den Zugang zu diesem Eintrag mit anderen Benutzern teilen zu können."
+                    "en": "Sign in on a Pass\u00A0Butler server to share the access to this item with other users.",
+                    "de": "Melden Sie sich bei einem Pass\u00A0Butler-Server an, um den Zugang zu diesem Eintrag mit anderen Benutzern teilen zu können."
                 },
                 "itemdetail_delete_header": {
                     "en": "Delete item",
@@ -867,8 +916,8 @@
                     "de": "Master-Passwort ändern"
                 },
                 "change_master_password_description": {
-                    "en": "Your master password secures all your other passwords! You can change it here if you want. If you are signed in your Pass\u00A0Butler server, you need a working connection for the process!",
-                    "de": "Das Master-Passwort sichert alle Ihre Passwörter ab. Sie können es hier ändern. Falls Sie auf einem Pass\u00A0Butler-Server registriert sind, muss dieser für die Änderung erreichbar sein!"
+                    "en": "Your master password secures all your other passwords! You can change it here if you want. If you are signed in on a Pass\u00A0Butler server, you need a working internet connection for the process!",
+                    "de": "Das Master-Passwort sichert alle Ihre Passwörter ab. Sie können es hier ändern. Falls Sie auf einem Pass\u00A0Butler-Server angemeldet sind, brauchen Sie eine funktionierende Internetverbindung für die Änderung!"
                 },
                 "change_master_password_disable_biometric_hint": {
                     "en": "Note: If you change your master password, the biometric unlock will be deactivated and you need setup it again for security reasons!",
@@ -1010,48 +1059,40 @@
             "name": "Register local user",
             "localizations": {
                 "register_local_user_title": {
-                    "en": "Register on server",
-                    "de": "Benutzerkonto registrieren"
+                    "en": "Sign in",
+                    "de": "Anmelden"
                 },
                 "register_local_user_header": {
-                    "en": "Register on server",
-                    "de": "Benutzerkonto registrieren"
+                    "en": "Sign in",
+                    "de": "Anmelden"
                 },
                 "register_local_user_description": {
-                    "en": "If you want to synchronize your passwords with multiple devices, you can register on a Pass\u00A0Butler server.\n\nThe following requirements must be fulfilled:\n\u2022 Registration is enabled on server\n\u2022 You have the correct invitation code of server\n\u2022 Your username is still not used on server",
-                    "de": "Wenn Sie Ihre Passwörter zwischen mehreren Geräten synchronisieren möchten, können Sie es auf einem Pass\u00A0Butler-Server registrieren.\n\nFolgende Bedingungen müssen erfüllt sein:\n\u2022 Registrierung auf Server aktiviert\n\u2022 Einladungs-Code von Server vorhanden\n\u2022 Benutzername nicht vergeben"
-                },
-                "register_local_user_serverurl_hint": {
-                    "en": "Server URL",
-                    "de": "Server URL"
+                    "en": "If you want to synchronize your passwords with multiple devices, you can sign in on a Pass\u00A0Butler server.\n\nAll you need is the server URL, the invitation code and your current master password.",
+                    "de": "Wenn Sie Ihre Passwörter zwischen mehreren Geräten synchronisieren möchten, können Sie sich auf einem Pass\u00A0Butler-Server anmelden.\n\nHierfür brauchen Sie nur die Server URL, den Einladungs-Code und Ihr aktuelles Master-Passwort."
                 },
                 "register_local_user_invitation_code_hint": {
                     "en": "Invitation code",
                     "de": "Einladungs-Code"
                 },
-                "register_local_user_master_password_hint": {
-                    "en": "Master password",
-                    "de": "Master-Passwort"
-                },
                 "register_local_user_button_text": {
-                    "en": "Register",
-                    "de": "Registrieren"
+                    "en": "Sign in",
+                    "de": "Anmelden"
                 },
                 "register_local_user_invitation_code_validation_error_empty": {
                     "en": "Invitation code is required",
                     "de": "Einladungs-Code nicht ausgefüllt"
                 },
                 "register_local_user_successful_message": {
-                    "en": "Registration successful",
-                    "de": "Registrierung erfolgreich"
+                    "en": "Sign in successful",
+                    "de": "Anmeldung erfolgreich"
                 },
                 "register_local_user_failed_wrong_master_password_title": {
                     "en": "Master password is incorrect",
                     "de": "Master-Passwort ist nicht korrekt"
                 },
                 "register_local_user_failed_general_title": {
-                    "en": "Registration was not successful",
-                    "de": "Registrierung hat nicht geklappt"
+                    "en": "Sign in was not successful",
+                    "de": "Anmeldung hat nicht geklappt"
                 },
                 "register_local_user_failed_unauthorized_title": {
                     "en": "Invitation code is incorrect",
