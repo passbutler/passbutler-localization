@@ -408,11 +408,7 @@
         {
             "name": "Navigation drawer",
             "localizations": {
-                "drawer_header_title": {
-                    "en": "Pass\u00A0Butler",
-                    "de": "Pass\u00A0Butler"
-                },
-                "drawer_header_usertype_local": {
+                "drawer_header_register_local_user_button_title": {
                     "en": "Sign in",
                     "de": "Anmelden"
                 },
@@ -444,17 +440,13 @@
                     "en": "About",
                     "de": "Über / Lizenz"
                 },
-                "drawer_menu_item_logout": {
-                    "en": "Logout",
-                    "de": "Abmelden"
-                },
                 "drawer_menu_category_external_links": {
                     "en": "External links",
                     "de": "Externe Links"
                 },
-                "drawer_menu_item_homepage": {
-                    "en": "Sicherheitskritisch.de",
-                    "de": "Sicherheitskritisch.de"
+                "drawer_menu_item_website": {
+                    "en": "Pass\u00A0Butler website",
+                    "de": "Pass\u00A0Butler Webseite"
                 },
                 "drawer_menu_item_googleplay": {
                     "en": "Review on Google Play",
@@ -497,10 +489,6 @@
                     "en": "Synchronization was not successful",
                     "de": "Synchronisation hat nicht geklappt"
                 },
-                "overview_logout_failed_title": {
-                    "en": "Logout was not successful",
-                    "de": "Abmeldung hat nicht geklappt"
-                },
                 "overview_item_subtitle_username_missing": {
                     "en": "No username stored",
                     "de": "Kein Benutzername gespeichert"
@@ -532,18 +520,6 @@
                 "overview_open_url_failed_title": {
                     "en": "Could not open empty URL",
                     "de": "Eine leere URL kann nicht geöffnet werden"
-                },
-                "overview_logout_confirmation_title": {
-                    "en": "Really logout?",
-                    "de": "Wirklich abmelden?"
-                },
-                "overview_logout_confirmation_message": {
-                    "en": "When logging off, all non-synchronized entries and settings are irretrievably deleted!",
-                    "de": "Beim Abmelden werden alle nicht-synchronisierten Einträge und Einstellungen unwiederbringlich gelöscht!"
-                },
-                "overview_logout_confirmation_button_title": {
-                    "en": "Logout",
-                    "de": "Abmelden"
                 }
             }
         },
@@ -897,6 +873,58 @@
                 "settings_change_master_password_setting_summary": {
                     "en": "Change your master password",
                     "de": "Klicken Sie hier, um Ihr Master-Passwort zu ändern"
+                },
+                "settings_category_account_title": {
+                    "en": "Account",
+                    "de": "Benutzerkonto"
+                },
+                "settings_logout_local_user_setting_title": {
+                    "en": "Delete account",
+                    "de": "Benutzerkonto löschen"
+                },
+                "settings_logout_local_user_setting_summary": {
+                    "en": "Delete your account with all entries and settings",
+                    "de": "Löscht Ihr Benutzerkonto mit allen Einträge und Einstellungen"
+                },
+                "settings_logout_local_user_confirmation_title": {
+                    "en": "Really delete account?",
+                    "de": "Wirklich Benutzerkonto löschen?"
+                },
+                "settings_logout_local_user_confirmation_message": {
+                    "en": "All your entries and settings will be irretrievably deleted! This cannot be undone!",
+                    "de": "Es werden alle Ihre Einträge und Einstellungen unwiederbringlich gelöscht! Dies kann nicht rückgängig gemacht werden!"
+                },
+                "settings_logout_local_user_confirmation_button_title": {
+                    "en": "Delete account",
+                    "de": "Benutzerkonto löschen"
+                },
+                "settings_logout_local_user_failed_title": {
+                    "en": "The account could not be deleted",
+                    "de": "Das Benutzerkonto konnte nicht gelöscht werden"
+                },
+                "settings_logout_remote_user_setting_title": {
+                    "en": "Logout account",
+                    "de": "Benutzerkonto abmelden"
+                },
+                "settings_logout_remote_user_setting_summary": {
+                    "en": "Logout the current account",
+                    "de": "Meldet das aktuelle Benutzerkonto ab"
+                },
+                "settings_logout_remote_user_confirmation_title": {
+                    "en": "Really logout?",
+                    "de": "Wirklich abmelden?"
+                },
+                "settings_logout_remote_user_confirmation_message": {
+                    "en": "When logging off, all non-synchronized entries and settings get lost!",
+                    "de": "Beim Abmelden gehen alle nicht-synchronisierten Einträge und Einstellungen verloren!"
+                },
+                "settings_logout_remote_user_confirmation_button_title": {
+                    "en": "Logout",
+                    "de": "Abmelden"
+                },
+                "settings_logout_remote_user_failed_title": {
+                    "en": "Logout was not successful",
+                    "de": "Abmeldung hat nicht geklappt"
                 },
                 "settings_save_setting_failed_title": {
                     "en": "Setting could not be saved",
