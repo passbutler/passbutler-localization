@@ -182,10 +182,6 @@
         {
             "name": "Menu",
             "localizations": {
-                "menu_create_vault": {
-                    "en": "Create new vault",
-                    "de": "Neuen Vault erzeugen"
-                },
                 "menu_open_vault": {
                     "en": "Open vault",
                     "de": "Vault öffnen"
@@ -248,6 +244,10 @@
                     "en": "Welcome",
                     "de": "Willkommen"
                 },
+                "introduction_headline": {
+                    "en": "Welcome",
+                    "de": "Willkommen"
+                },
                 "introduction_create_user_title": {
                     "en": "New to Pass\u00A0Butler?",
                     "de": "Neu bei Pass\u00A0Butler?"
@@ -278,6 +278,10 @@
             "name": "Create local user",
             "localizations": {
                 "create_local_user_step_title": {
+                    "en": "Get started",
+                    "de": "Jetzt starten"
+                },
+                "create_local_user_step_headline": {
                     "en": "Step %1$d of %2$d",
                     "de": "Schritt %1$d von %2$d"
                 },
@@ -301,6 +305,14 @@
                     "en": "Master password confirmation is different",
                     "de": "Master-Passwort stimmt nicht überein"
                 },
+                "create_local_user_step_vault_file_title": {
+                    "en": "Choose where the vault file is saved.",
+                    "de": "Wähle wo der Vault gespeichert werden soll."
+                },
+                "create_local_user_step_vault_file_button_text": {
+                    "en": "Choose file",
+                    "de": "Datei auswählen"
+                },
                 "create_local_user_failed_general_title": {
                     "en": "Setup was not successful",
                     "de": "Einrichtung hat nicht geklappt"
@@ -311,8 +323,8 @@
             "name": "Login",
             "localizations": {
                 "login_title": {
-                    "en": "Pass\u00A0Butler Sign in",
-                    "de": "Pass\u00A0Butler Anmelden"
+                    "en": "Sign in",
+                    "de": "Anmelden"
                 },
                 "login_headline": {
                     "en": "Sign in",
