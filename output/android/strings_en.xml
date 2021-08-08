@@ -65,12 +65,12 @@
     <string name="introduction_login_user_button_text">Sign in now</string>
     <string name="create_local_user_step_title">Get started</string>
     <string name="create_local_user_step_headline">Step %1$d of %2$d</string>
-    <string name="create_local_user_step_username_title">Choose your username.</string>
+    <string name="create_local_user_step_username_headline">Choose your username.</string>
     <string name="create_local_user_step_username_hint_text">You can just take your email address, for example.</string>
-    <string name="create_local_user_step_master_password_title">Choose a secure master password.</string>
+    <string name="create_local_user_step_master_password_headline">Choose a secure master password.</string>
     <string name="create_local_user_step_master_password_hint_text">The master password protects all your normal passwords and should be as difficult as possible to guess (e.g. a nonsensical sentence whose content has nothing to do with you).</string>
     <string name="create_local_user_step_master_password_confirm_validation_error_different">Master password confirmation is different</string>
-    <string name="create_local_user_step_vault_file_title">Choose where the vault file is saved.</string>
+    <string name="create_local_user_step_vault_file_headline">Choose where the vault file is saved.</string>
     <string name="create_local_user_step_vault_file_button_text">Choose file</string>
     <string name="create_local_user_failed_general_title">Setup was not successful</string>
     <string name="login_title">Sign in</string>

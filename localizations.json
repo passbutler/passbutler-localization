@@ -285,7 +285,7 @@
                     "en": "Step %1$d of %2$d",
                     "de": "Schritt %1$d von %2$d"
                 },
-                "create_local_user_step_username_title": {
+                "create_local_user_step_username_headline": {
                     "en": "Choose your username.",
                     "de": "Wähle deinen Benutzernamen."
                 },
@@ -293,7 +293,7 @@
                     "en": "You can just take your email address, for example.",
                     "de": "Du kannst z.B. einfach deine E-Mail-Adresse nehmen."
                 },
-                "create_local_user_step_master_password_title": {
+                "create_local_user_step_master_password_headline": {
                     "en": "Choose a secure master password.",
                     "de": "Wähle ein sicheres Master-Passwort."
                 },
@@ -305,7 +305,7 @@
                     "en": "Master password confirmation is different",
                     "de": "Master-Passwort stimmt nicht überein"
                 },
-                "create_local_user_step_vault_file_title": {
+                "create_local_user_step_vault_file_headline": {
                     "en": "Choose where the vault file is saved.",
                     "de": "Wähle wo der Vault gespeichert werden soll."
                 },

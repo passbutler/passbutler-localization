@@ -65,12 +65,12 @@
     <string name="introduction_login_user_button_text">Jetzt anmelden</string>
     <string name="create_local_user_step_title">Jetzt starten</string>
     <string name="create_local_user_step_headline">Schritt %1$d von %2$d</string>
-    <string name="create_local_user_step_username_title">Wähle deinen Benutzernamen.</string>
+    <string name="create_local_user_step_username_headline">Wähle deinen Benutzernamen.</string>
     <string name="create_local_user_step_username_hint_text">Du kannst z.B. einfach deine E-Mail-Adresse nehmen.</string>
-    <string name="create_local_user_step_master_password_title">Wähle ein sicheres Master-Passwort.</string>
+    <string name="create_local_user_step_master_password_headline">Wähle ein sicheres Master-Passwort.</string>
     <string name="create_local_user_step_master_password_hint_text">Das Master-Passwort schützt all deine normalen Passwörter und sollte möglichst schwer zu erraten sein (z.B. ein unsinniger Satz, dessen Inhalt nichts mit dir zu tun hat).</string>
     <string name="create_local_user_step_master_password_confirm_validation_error_different">Master-Passwort stimmt nicht überein</string>
-    <string name="create_local_user_step_vault_file_title">Wähle wo der Vault gespeichert werden soll.</string>
+    <string name="create_local_user_step_vault_file_headline">Wähle wo der Vault gespeichert werden soll.</string>
     <string name="create_local_user_step_vault_file_button_text">Datei auswählen</string>
     <string name="create_local_user_failed_general_title">Einrichtung hat nicht geklappt</string>
     <string name="login_title">Anmelden</string>
