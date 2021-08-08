@@ -248,7 +248,7 @@
                     "en": "Welcome",
                     "de": "Willkommen"
                 },
-                "introduction_create_user_title": {
+                "introduction_create_user_headline": {
                     "en": "New to Pass\u00A0Butler?",
                     "de": "Neu bei Pass\u00A0Butler?"
                 },
@@ -260,7 +260,7 @@
                     "en": "Get started",
                     "de": "Jetzt starten"
                 },
-                "introduction_login_user_title": {
+                "introduction_login_user_headline": {
                     "en": "Already used Pass\u00A0Butler?",
                     "de": "Pass\u00A0Butler bereits genutzt?"
                 },
@@ -355,11 +355,11 @@
                     "en": "Pass\u00A0Butler Unlock",
                     "de": "Pass\u00A0Butler Entsperren"
                 },
-                "locked_screen_header_autofill": {
+                "locked_screen_headline_autofill": {
                     "en": "AutoFill with Pass\u00A0Butler",
                     "de": "Ausfüllen mit Pass\u00A0Butler"
                 },
-                "locked_screen_header_normal": {
+                "locked_screen_headline_normal": {
                     "en": "Pass\u00A0Butler is locked",
                     "de": "Pass\u00A0Butler ist gesperrt"
                 },
@@ -485,7 +485,7 @@
                     "en": "Never",
                     "de": "Nie"
                 },
-                "overview_empty_screen_title": {
+                "overview_empty_screen_headline": {
                     "en": "No entries",
                     "de": "Noch keine Einträge"
                 },
@@ -546,7 +546,7 @@
                     "en": "Show/edit item",
                     "de": "Eintrag ansehen/bearbeiten"
                 },
-                "itemdetail_details_header": {
+                "itemdetail_details_headline": {
                     "en": "Details",
                     "de": "Details"
                 },
@@ -578,7 +578,7 @@
                     "en": "Notes",
                     "de": "Notizen"
                 },
-                "itemdetail_information_header": {
+                "itemdetail_information_headline": {
                     "en": "Information",
                     "de": "Informationen"
                 },
@@ -594,7 +594,7 @@
                     "en": "UUID",
                     "de": "UUID"
                 },
-                "itemdetail_authorizations_header": {
+                "itemdetail_authorizations_headline": {
                     "en": "Share item",
                     "de": "Zugang teilen"
                 },
@@ -618,7 +618,7 @@
                     "en": "Sign in on a Pass\u00A0Butler server to share the access to this item with other users.",
                     "de": "Melden Sie sich bei einem Pass\u00A0Butler-Server an, um den Zugang zu diesem Eintrag mit anderen Benutzern teilen zu können."
                 },
-                "itemdetail_delete_header": {
+                "itemdetail_delete_headline": {
                     "en": "Delete item",
                     "de": "Eintrag löschen"
                 },
@@ -708,7 +708,7 @@
                     "en": "Share item",
                     "de": "Zugang teilen"
                 },
-                "itemauthorizations_header": {
+                "itemauthorizations_headline": {
                     "en": "Share item",
                     "de": "Zugang teilen"
                 },
@@ -757,7 +757,7 @@
                     "en": "Recycle bin",
                     "de": "Papierkorb"
                 },
-                "recycle_bin_empty_screen_title": {
+                "recycle_bin_empty_screen_headline": {
                     "en": "No entries",
                     "de": "Noch keine Einträge"
                 },
@@ -786,7 +786,11 @@
                     "en": "Settings",
                     "de": "Einstellungen"
                 },
-                "settings_category_general_title": {
+                "settings_headline": {
+                    "en": "Settings",
+                    "de": "Einstellungen"
+                },
+                "settings_category_general_headline": {
                     "en": "General",
                     "de": "Allgemein"
                 },
@@ -798,7 +802,7 @@
                     "en": "Enables an eye-friendly look and feel of Pass\u00A0Butler",
                     "de": "Aktiviert ein dunkles, augenfreundliches Aussehen von Pass\u00A0Butler"
                 },
-                "settings_category_security_title": {
+                "settings_category_security_headline": {
                     "en": "Security",
                     "de": "Sicherheit"
                 },
@@ -886,7 +890,7 @@
                     "en": "Change your master password",
                     "de": "Klicken Sie hier, um Ihr Master-Passwort zu ändern"
                 },
-                "settings_category_account_title": {
+                "settings_category_account_headline": {
                     "en": "Account",
                     "de": "Benutzerkonto"
                 },
@@ -951,7 +955,7 @@
                     "en": "Change master password",
                     "de": "Master-Passwort ändern"
                 },
-                "change_master_password_header": {
+                "change_master_password_headline": {
                     "en": "Change master password",
                     "de": "Master-Passwort ändern"
                 },
@@ -1020,7 +1024,7 @@
                     "en": "About",
                     "de": "Über / Lizenz"
                 },
-                "about_header": {
+                "about_headline": {
                     "en": "Pass\u00A0Butler",
                     "de": "Pass\u00A0Butler"
                 },
@@ -1037,7 +1041,7 @@
         {
             "name": "Premium",
             "localizations": {
-                "premium_header": {
+                "premium_headline": {
                     "en": "Premium Key",
                     "de": "Premium Key"
                 },
@@ -1102,7 +1106,7 @@
                     "en": "Sign in",
                     "de": "Anmelden"
                 },
-                "register_local_user_header": {
+                "register_local_user_headline": {
                     "en": "Sign in",
                     "de": "Anmelden"
                 },
@@ -1155,7 +1159,7 @@
                     "en": "Import passwords",
                     "de": "Passwörter importieren"
                 },
-                "import_header": {
+                "import_headline": {
                     "en": "Import passwords",
                     "de": "Passwörter importieren"
                 },
@@ -1163,7 +1167,7 @@
                     "en": "Import your passwords from other password managers.",
                     "de": "Importiere deine Passwörter aus anderen Passwortmanagern."
                 },
-                "import_keepassx2_header": {
+                "import_keepassx2_headline": {
                     "en": "Import from KeePassX 2 / KeePassXC",
                     "de": "Importieren von KeePassX 2 / KeePassXC"
                 },
@@ -1183,7 +1187,7 @@
                     "en": "KeePassX 2 / KeePassXC CSV export",
                     "de": "KeePassX 2 / KeePassXC CSV export"
                 },
-                "import_keepass2_header": {
+                "import_keepass2_headline": {
                     "en": "Import from KeePass2",
                     "de": "Importieren von KeePass2"
                 },
