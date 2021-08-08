@@ -201,6 +201,9 @@
     <string name="settings_setup_biometric_unlock_failed_general_title">Einrichtung hat nicht geklappt</string>
     <string name="settings_setup_biometric_unlock_failed_wrong_master_password_title">Master-Passwort ist nicht korrekt</string>
     <string name="settings_setup_biometric_unlock_successful_message">Biometrisches Entsperren wurde eingerichtet</string>
+    <string name="settings_disable_biometric_unlock_confirmation_title">Biometrisches Entsperren deaktivieren?</string>
+    <string name="settings_disable_biometric_unlock_confirmation_message">Wenn Sie biometrisches Entsperren deaktivieren, müssen Sie jedes mal Ihr Master-Passwort eingeben.</string>
+    <string name="settings_disable_biometric_unlock_button_title">Deaktivieren</string>
     <string name="settings_disable_biometric_unlock_failed_general_title">Deaktivierung hat nicht geklappt</string>
     <string name="settings_disable_biometric_unlock_successful_message">Biometrisches Entsperren wurde deaktiviert</string>
     <string name="settings_change_master_password_setting_title">Master-Passwort ändern</string>

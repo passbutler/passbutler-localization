@@ -874,6 +874,18 @@
                     "en": "Biometric unlock was setup successfully",
                     "de": "Biometrisches Entsperren wurde eingerichtet"
                 },
+                "settings_disable_biometric_unlock_confirmation_title": {
+                    "en": "Disable biometric unlock?",
+                    "de": "Biometrisches Entsperren deaktivieren?"
+                },
+                "settings_disable_biometric_unlock_confirmation_message": {
+                    "en": "If you disable biometric unlock, you need to enter your master password every time.",
+                    "de": "Wenn Sie biometrisches Entsperren deaktivieren, müssen Sie jedes mal Ihr Master-Passwort eingeben."
+                },
+                "settings_disable_biometric_unlock_button_title": {
+                    "en": "Disable",
+                    "de": "Deaktivieren"
+                },
                 "settings_disable_biometric_unlock_failed_general_title": {
                     "en": "Biometric unlock could not be disabled",
                     "de": "Deaktivierung hat nicht geklappt"
