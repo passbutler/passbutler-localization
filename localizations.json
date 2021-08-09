@@ -145,8 +145,8 @@
                     "de": "Jahren"
                 },
                 "general_copy_button_title": {
-                    "en": "Copy “%1$s“",
-                    "de": "“%1$s“ kopieren"
+                    "en": "Copy text “%1$s“",
+                    "de": "Text “%1$s“ kopieren"
                 },
                 "general_copy_to_clipboard_successful_message": {
                     "en": "Copied to clipboard",
