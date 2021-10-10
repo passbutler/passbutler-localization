@@ -152,9 +152,9 @@
                     "en": "Copied to clipboard",
                     "de": "In Zwischenablage kopiert"
                 },
-                "general_imprint": {
-                    "en": "Imprint",
-                    "de": "Impressum"
+                "general_about": {
+                    "en": "About / Legal",
+                    "de": "Über / Rechtliches"
                 }
             }
         },

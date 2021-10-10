@@ -38,7 +38,7 @@
     <string name="general_relative_date_unit_year_other">Jahren</string>
     <string name="general_copy_button_title">Text “%1$s“ kopieren</string>
     <string name="general_copy_to_clipboard_successful_message">In Zwischenablage kopiert</string>
-    <string name="general_imprint">Impressum</string>
+    <string name="general_about">Über / Rechtliches</string>
     <string name="form_serverurl_validation_error_empty">Server URL nicht ausgefüllt</string>
     <string name="form_serverurl_validation_error_invalid">Server URL nicht gültig</string>
     <string name="form_serverurl_validation_error_invalid_scheme">Server URL muss mit “https://“ beginnen</string>
