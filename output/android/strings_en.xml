@@ -264,7 +264,7 @@
     <string name="premium_feature_requires_premium_key_general_title">A Premium Key is required to use this feature</string>
     <string name="register_local_user_title">Sign in</string>
     <string name="register_local_user_headline">Sign in</string>
-    <string name="register_local_user_description">If you want to synchronize your passwords with multiple devices, you can sign in on a Pass\u00A0Butler server.\n\nAll you need is the server URL, the invitation code and your current master password.</string>
+    <string name="register_local_user_description">If you want to synchronize your passwords seamlessly with multiple devices, you can sign in on a Pass\u00A0Butler server.</string>
     <string name="register_local_user_invitation_code_hint">Invitation code</string>
     <string name="register_local_user_button_text">Sign in</string>
     <string name="register_local_user_invitation_code_validation_error_empty">Invitation code is required</string>

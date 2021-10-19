@@ -1147,8 +1147,8 @@
                     "de": "Anmelden"
                 },
                 "register_local_user_description": {
-                    "en": "If you want to synchronize your passwords with multiple devices, you can sign in on a Pass\u00A0Butler server.\n\nAll you need is the server URL, the invitation code and your current master password.",
-                    "de": "Wenn Sie Ihre Passwörter zwischen mehreren Geräten synchronisieren möchten, können Sie sich auf einem Pass\u00A0Butler-Server anmelden.\n\nHierfür brauchen Sie nur die Server URL, den Einladungs-Code und Ihr aktuelles Master-Passwort."
+                    "en": "If you want to synchronize your passwords seamlessly with multiple devices, you can sign in on a Pass\u00A0Butler server.",
+                    "de": "Wenn Sie Ihre Passwörter nahtlos zwischen mehreren Geräten synchronisieren möchten, können Sie sich auf einem Pass\u00A0Butler-Server anmelden."
                 },
                 "register_local_user_invitation_code_hint": {
                     "en": "Invitation code",
