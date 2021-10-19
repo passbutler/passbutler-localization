@@ -1059,6 +1059,18 @@
                 "about_imprint_url": {
                     "en": "https://passbutler.de/imprint/",
                     "de": "https://passbutler.de/de/imprint/"
+                },
+                "about_privacy_policy_headline": {
+                    "en": "Privacy Policy",
+                    "de": "Datenschutzerklärung"
+                },
+                "about_open_privacy_policy_button_text": {
+                    "en": "Open Privacy Policy",
+                    "de": "Datenschutzerklärung öffnen"
+                },
+                "about_privacy_policy_url": {
+                    "en": "https://passbutler.de/privacy/app/",
+                    "de": "https://passbutler.de/de/privacy/app/"
                 }
             }
         },

@@ -245,6 +245,9 @@
     <string name="about_imprint_headline">Impressum</string>
     <string name="about_open_imprint_button_text">Impressum öffnen</string>
     <string name="about_imprint_url">https://passbutler.de/de/imprint/</string>
+    <string name="about_privacy_policy_headline">Datenschutzerklärung</string>
+    <string name="about_open_privacy_policy_button_text">Datenschutzerklärung öffnen</string>
+    <string name="about_privacy_policy_url">https://passbutler.de/de/privacy/app/</string>
     <string name="premium_headline">Premium Key</string>
     <string name="premium_description_no_premium_key">Um alle Funktionen von Pass\u00A0Butler freizuschalten, benötigen Sie einen Premium Key.</string>
     <string name="premium_register_premium_key_button_text">Premium Key registrieren</string>
