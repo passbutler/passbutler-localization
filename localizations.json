@@ -257,7 +257,7 @@
                     "de": "Neu bei Pass\u00A0Butler?"
                 },
                 "introduction_create_user_description": {
-                    "en": "If you are using Pass\u00A0Butler for the first time, get started with the quick setup:",
+                    "en": "If you are using Pass\u00A0Butler for the first time, get started with the quick set-up:",
                     "de": "Wenn du Pass\u00A0Butler das erste Mal benutzt, starte direkt mit der kurzen Einrichtung:"
                 },
                 "introduction_create_user_button_text": {
@@ -318,7 +318,7 @@
                     "de": "Datei auswählen"
                 },
                 "create_local_user_failed_general_title": {
-                    "en": "Setup was not successful",
+                    "en": "Set-up was not successful",
                     "de": "Einrichtung hat nicht geklappt"
                 }
             }
@@ -408,8 +408,8 @@
                     "de": "Biometrisches Entsperren hat nicht geklappt"
                 },
                 "locked_screen_biometrics_unlock_failed_missing_key_title": {
-                    "en": "Biometric unlock was not successful - you may need to setup the feature again",
-                    "de": "Biometrisches Entsperren hat nicht geklappt - bitte richten Sie die Funktion ggf. erneut ein"
+                    "en": "Biometric unlock was not successful – you may need to set up the feature again",
+                    "de": "Biometrisches Entsperren hat nicht geklappt – bitte richten Sie die Funktion ggf. erneut ein"
                 },
                 "locked_screen_unlock_failed_general_title": {
                     "en": "Unlock was not successful",
@@ -738,7 +738,7 @@
                 },
                 "itemauthorizations_empty_screen_description": {
                     "en": "On your Pass\u00A0Butler server are still no other users to share the item with.",
-                    "de": "Auf Ihrem Pass\u00A0Butler-Server existieren außer Ihnen noch keine weiteren Benutzer mit denen Sie den Eintrag teilen können."
+                    "de": "Auf Ihrem Pass\u00A0Butler-Server existieren außer Ihnen noch keine weiteren Benutzer, mit denen Sie den Eintrag teilen können."
                 },
                 "itemauthorizations_save_failed_general_title": {
                     "en": "Save was not successful",
@@ -855,11 +855,11 @@
                     "de": "Master-Passwort bestätigen"
                 },
                 "settings_setup_biometric_unlock_biometrics_prompt_title": {
-                    "en": "Setup biometric unlock",
+                    "en": "Set up biometric unlock",
                     "de": "Biometrisches Entsperren einrichten"
                 },
                 "settings_setup_biometric_unlock_biometrics_prompt_description": {
-                    "en": "Setup biometric unlock now",
+                    "en": "Set up biometric unlock now",
                     "de": "Richten Sie Biometrisches Entsperren nun ein"
                 },
                 "settings_setup_biometric_unlock_biometrics_prompt_cancel_button_text": {
@@ -867,7 +867,7 @@
                     "de": "Abbrechen"
                 },
                 "settings_setup_biometric_unlock_failed_general_title": {
-                    "en": "Biometric unlock setup was not successful",
+                    "en": "Biometric unlock set up was not successful",
                     "de": "Einrichtung hat nicht geklappt"
                 },
                 "settings_setup_biometric_unlock_failed_wrong_master_password_title": {
@@ -875,7 +875,7 @@
                     "de": "Master-Passwort ist nicht korrekt"
                 },
                 "settings_setup_biometric_unlock_successful_message": {
-                    "en": "Biometric unlock was setup successfully",
+                    "en": "Biometric unlock was set up successfully",
                     "de": "Biometrisches Entsperren wurde eingerichtet"
                 },
                 "settings_disable_biometric_unlock_confirmation_title": {
@@ -884,7 +884,7 @@
                 },
                 "settings_disable_biometric_unlock_confirmation_message": {
                     "en": "If you disable biometric unlock, you need to enter your master password every time.",
-                    "de": "Wenn Sie biometrisches Entsperren deaktivieren, müssen Sie jedes mal Ihr Master-Passwort eingeben."
+                    "de": "Wenn Sie biometrisches Entsperren deaktivieren, müssen Sie jedes Mal Ihr Master-Passwort eingeben."
                 },
                 "settings_disable_biometric_unlock_button_title": {
                     "en": "Disable",
@@ -980,7 +980,7 @@
                     "de": "Das Master-Passwort sichert alle Ihre Passwörter ab. Sie können es hier ändern. Falls Sie auf einem Pass\u00A0Butler-Server angemeldet sind, brauchen Sie eine funktionierende Internetverbindung für die Änderung!"
                 },
                 "change_master_password_disable_biometric_hint": {
-                    "en": "Note: If you change your master password, the biometric unlock will be deactivated and you need setup it again for security reasons!",
+                    "en": "Note: If you change your master password, the biometric unlock will be deactivated, and you need set up it again for security reasons!",
                     "de": "Hinweis: Durch die Änderung wird das biometrische Entsperren deaktiviert und Sie müssen es erneut einrichten!"
                 },
                 "change_master_password_old_master_password_hint": {
@@ -1212,7 +1212,7 @@
                     "de": "Importiere deine Passwörter aus KeePassX 2 oder KeePassXC."
                 },
                 "import_keepassx2_language_hint": {
-                    "en": "Important: Before the export you need to rename the recycle bin exactly to “%1$s“! Otherwise deleted entries won't be recognized as such.",
+                    "en": "Important: Before the export you need to rename the recycle bin exactly to “%1$s“! Otherwise, deleted entries won't be recognized as such.",
                     "de": "Wichtig: Vor dem Export muss der Papierkorb in “%1$s“ umbenannt werden! Ansonsten werden gelöschte Einträge nicht als solche erkannt!"
                 },
                 "import_keepassx2_button_text": {

@@ -59,7 +59,7 @@
     <string name="introduction_title">Welcome</string>
     <string name="introduction_headline">Welcome</string>
     <string name="introduction_create_user_headline">New to Pass\u00A0Butler?</string>
-    <string name="introduction_create_user_description">If you are using Pass\u00A0Butler for the first time, get started with the quick setup:</string>
+    <string name="introduction_create_user_description">If you are using Pass\u00A0Butler for the first time, get started with the quick set-up:</string>
     <string name="introduction_create_user_button_text">Get started</string>
     <string name="introduction_login_user_headline">Already used Pass\u00A0Butler?</string>
     <string name="introduction_login_user_description">If you have already used Pass\u00A0Butler, sign in with your account:</string>
@@ -73,7 +73,7 @@
     <string name="create_local_user_step_master_password_confirm_validation_error_different">Master password confirmation is different</string>
     <string name="create_local_user_step_vault_file_headline">Choose where the vault file is saved.</string>
     <string name="create_local_user_step_vault_file_button_text">Choose file</string>
-    <string name="create_local_user_failed_general_title">Setup was not successful</string>
+    <string name="create_local_user_failed_general_title">Set-up was not successful</string>
     <string name="login_title">Sign in</string>
     <string name="login_headline">Sign in</string>
     <string name="login_description">Sign in with your existing account.</string>
@@ -93,7 +93,7 @@
     <string name="locked_screen_biometrics_prompt_description">Unlock Pass\u00A0Butler now</string>
     <string name="locked_screen_biometrics_prompt_cancel_button_text">Cancel</string>
     <string name="locked_screen_biometrics_unlock_failed_general_title">Biometric unlock was not successful</string>
-    <string name="locked_screen_biometrics_unlock_failed_missing_key_title">Biometric unlock was not successful - you may need to setup the feature again</string>
+    <string name="locked_screen_biometrics_unlock_failed_missing_key_title">Biometric unlock was not successful – you may need to set up the feature again</string>
     <string name="locked_screen_unlock_failed_general_title">Unlock was not successful</string>
     <string name="locked_screen_unlock_failed_wrong_master_password_title">Master password is incorrect</string>
     <string name="drawer_header_register_local_user_button_title">Sign in</string>
@@ -196,12 +196,12 @@
     <string name="settings_biometric_unlock_setting_title">Biometric unlock</string>
     <string name="settings_biometric_unlock_setting_summary">Unlock Pass\u00A0Butler with your biometrics as a comfortable alternative to the entry of your master password</string>
     <string name="settings_setup_biometric_unlock_master_password_dialog_title">Confirm master password</string>
-    <string name="settings_setup_biometric_unlock_biometrics_prompt_title">Setup biometric unlock</string>
-    <string name="settings_setup_biometric_unlock_biometrics_prompt_description">Setup biometric unlock now</string>
+    <string name="settings_setup_biometric_unlock_biometrics_prompt_title">Set up biometric unlock</string>
+    <string name="settings_setup_biometric_unlock_biometrics_prompt_description">Set up biometric unlock now</string>
     <string name="settings_setup_biometric_unlock_biometrics_prompt_cancel_button_text">Cancel</string>
-    <string name="settings_setup_biometric_unlock_failed_general_title">Biometric unlock setup was not successful</string>
+    <string name="settings_setup_biometric_unlock_failed_general_title">Biometric unlock set up was not successful</string>
     <string name="settings_setup_biometric_unlock_failed_wrong_master_password_title">Master password is incorrect</string>
-    <string name="settings_setup_biometric_unlock_successful_message">Biometric unlock was setup successfully</string>
+    <string name="settings_setup_biometric_unlock_successful_message">Biometric unlock was set up successfully</string>
     <string name="settings_disable_biometric_unlock_confirmation_title">Disable biometric unlock?</string>
     <string name="settings_disable_biometric_unlock_confirmation_message">If you disable biometric unlock, you need to enter your master password every time.</string>
     <string name="settings_disable_biometric_unlock_button_title">Disable</string>
@@ -226,7 +226,7 @@
     <string name="change_master_password_title">Change master password</string>
     <string name="change_master_password_headline">Change master password</string>
     <string name="change_master_password_description">Your master password secures all your other passwords! You can change it here if you want. If you are signed in on a Pass\u00A0Butler server, you need a working internet connection for the process!</string>
-    <string name="change_master_password_disable_biometric_hint">Note: If you change your master password, the biometric unlock will be deactivated and you need setup it again for security reasons!</string>
+    <string name="change_master_password_disable_biometric_hint">Note: If you change your master password, the biometric unlock will be deactivated, and you need set up it again for security reasons!</string>
     <string name="change_master_password_old_master_password_hint">Current master password</string>
     <string name="change_master_password_new_master_password_hint">New master password</string>
     <string name="change_master_password_new_master_password_confirm_hint">New master password (confirmation)</string>
@@ -279,7 +279,7 @@
     <string name="import_description">Import your passwords from other password managers.</string>
     <string name="import_keepassx2_headline">Import from KeePassX 2 / KeePassXC</string>
     <string name="import_keepassx2_description">Import your passwords from KeePassX 2 or KeePassXC.</string>
-    <string name="import_keepassx2_language_hint">Important: Before the export you need to rename the recycle bin exactly to “%1$s“! Otherwise deleted entries won\'t be recognized as such.</string>
+    <string name="import_keepassx2_language_hint">Important: Before the export you need to rename the recycle bin exactly to “%1$s“! Otherwise, deleted entries won\'t be recognized as such.</string>
     <string name="import_keepassx2_button_text">Select file to import</string>
     <string name="import_keepassx2_file_extension_description">KeePassX 2 / KeePassXC CSV export</string>
     <string name="import_keepass2_headline">Import from KeePass2</string>
