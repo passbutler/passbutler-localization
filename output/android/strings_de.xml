@@ -38,6 +38,7 @@
     <string name="general_relative_date_unit_year_other">Jahren</string>
     <string name="general_copy_button_title">Text “%1$s“ kopieren</string>
     <string name="general_copy_to_clipboard_successful_message">In Zwischenablage kopiert</string>
+    <string name="general_imprint">Impressum</string>
     <string name="form_serverurl_validation_error_empty">Server URL nicht ausgefüllt</string>
     <string name="form_serverurl_validation_error_invalid">Server URL nicht gültig</string>
     <string name="form_serverurl_validation_error_invalid_scheme">Server URL muss mit “https://“ beginnen</string>
@@ -102,7 +103,7 @@
     <string name="drawer_menu_recycle_bin">Papierkorb</string>
     <string name="drawer_menu_item_settings">Einstellungen</string>
     <string name="drawer_menu_import">Importieren</string>
-    <string name="drawer_menu_item_about">Über / Lizenz</string>
+    <string name="drawer_menu_item_about">Über / Rechtliches</string>
     <string name="drawer_menu_category_external_links">Externe Links</string>
     <string name="drawer_menu_item_website">Pass\u00A0Butler Webseite</string>
     <string name="drawer_menu_item_googleplay">Bewerten auf Google Play</string>
@@ -238,10 +239,12 @@
     <string name="change_master_password_failed_wrong_master_password_title">Aktuelles Master-Passwort ist nicht korrekt</string>
     <string name="change_master_password_failed_update_user_failed_title">Änderung hat nicht geklappt: Prüfen Sie die Erreichbarkeit Ihres Pass\u00A0Butler-Servers</string>
     <string name="change_master_password_failed_general_title">Änderung hat nicht geklappt</string>
-    <string name="about_title">Über / Lizenz</string>
+    <string name="about_title">Über / Rechtliches</string>
     <string name="about_headline">Pass\u00A0Butler</string>
     <string name="about_subheader">Version %1$s (gebaut am %2$s von dem Quellcodestand %3$s)</string>
-    <string name="about_passage_1">Programmiert von Bastian Raschke</string>
+    <string name="about_imprint_headline">Impressum</string>
+    <string name="about_open_imprint_button_text">Impressum öffnen</string>
+    <string name="about_imprint_url">https://passbutler.de/de/imprint/</string>
     <string name="premium_headline">Premium Key</string>
     <string name="premium_description_no_premium_key">Um alle Funktionen von Pass\u00A0Butler freizuschalten, benötigen Sie einen Premium Key.</string>
     <string name="premium_register_premium_key_button_text">Premium Key registrieren</string>

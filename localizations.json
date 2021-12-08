@@ -151,6 +151,10 @@
                 "general_copy_to_clipboard_successful_message": {
                     "en": "Copied to clipboard",
                     "de": "In Zwischenablage kopiert"
+                },
+                "general_imprint": {
+                    "en": "Imprint",
+                    "de": "Impressum"
                 }
             }
         },
@@ -449,8 +453,8 @@
                     "de": "Importieren"
                 },
                 "drawer_menu_item_about": {
-                    "en": "About",
-                    "de": "Über / Lizenz"
+                    "en": "About / Legal",
+                    "de": "Über / Rechtliches"
                 },
                 "drawer_menu_category_external_links": {
                     "en": "External links",
@@ -1033,8 +1037,8 @@
             "name": "About",
             "localizations": {
                 "about_title": {
-                    "en": "About",
-                    "de": "Über / Lizenz"
+                    "en": "About / Legal",
+                    "de": "Über / Rechtliches"
                 },
                 "about_headline": {
                     "en": "Pass\u00A0Butler",
@@ -1044,9 +1048,17 @@
                     "en": "Version %1$s (built on %2$s of source code revision %3$s)",
                     "de": "Version %1$s (gebaut am %2$s von dem Quellcodestand %3$s)"
                 },
-                "about_passage_1": {
-                    "en": "Programmed by Bastian Raschke",
-                    "de": "Programmiert von Bastian Raschke"
+                "about_imprint_headline": {
+                    "en": "Imprint",
+                    "de": "Impressum"
+                },
+                "about_open_imprint_button_text": {
+                    "en": "Open imprint",
+                    "de": "Impressum öffnen"
+                },
+                "about_imprint_url": {
+                    "en": "https://passbutler.de/imprint/",
+                    "de": "https://passbutler.de/de/imprint/"
                 }
             }
         },
