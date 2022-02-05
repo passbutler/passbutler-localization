@@ -38,6 +38,7 @@
     <string name="general_relative_date_unit_year_other">Jahren</string>
     <string name="general_copy_button_title">Text “%1$s“ kopieren</string>
     <string name="general_copy_to_clipboard_successful_message">In Zwischenablage kopiert</string>
+    <string name="general_copy_to_clipboard_failed_empty_title">Leere Daten nicht in die Zwischenablage kopiert</string>
     <string name="general_about">Über / Rechtliches</string>
     <string name="form_serverurl_validation_error_empty">Server URL nicht ausgefüllt</string>
     <string name="form_serverurl_validation_error_invalid">Server URL nicht gültig</string>
@@ -120,8 +121,6 @@
     <string name="overview_item_context_menu_copy_password">Passwort kopieren</string>
     <string name="overview_item_context_menu_copy_url">URL kopieren</string>
     <string name="overview_item_context_menu_open_url">URL öffnen</string>
-    <string name="overview_item_information_clipboard_successful_message">In Zwischenablage kopiert</string>
-    <string name="overview_item_information_clipboard_failed_empty_title">Leere Daten nicht in die Zwischenablage kopiert</string>
     <string name="overview_open_url_failed_title">Eine leere URL kann nicht geöffnet werden</string>
     <string name="itemdetail_title_new">Neuen Eintrag anlegen</string>
     <string name="itemdetail_title_edit">Eintrag ansehen/bearbeiten</string>

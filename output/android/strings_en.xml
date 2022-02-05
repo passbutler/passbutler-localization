@@ -38,6 +38,7 @@
     <string name="general_relative_date_unit_year_other">years</string>
     <string name="general_copy_button_title">Copy text “%1$s“</string>
     <string name="general_copy_to_clipboard_successful_message">Copied to clipboard</string>
+    <string name="general_copy_to_clipboard_failed_empty_title">Could not copy empty data to clipboard</string>
     <string name="general_about">About / Legal</string>
     <string name="form_serverurl_validation_error_empty">Server URL is required</string>
     <string name="form_serverurl_validation_error_invalid">Server URL is invalid</string>
@@ -120,8 +121,6 @@
     <string name="overview_item_context_menu_copy_password">Copy password</string>
     <string name="overview_item_context_menu_copy_url">Copy URL</string>
     <string name="overview_item_context_menu_open_url">Open URL</string>
-    <string name="overview_item_information_clipboard_successful_message">Copied to clipboard</string>
-    <string name="overview_item_information_clipboard_failed_empty_title">Could not copy empty data to clipboard</string>
     <string name="overview_open_url_failed_title">Could not open empty URL</string>
     <string name="itemdetail_title_new">Create new item</string>
     <string name="itemdetail_title_edit">Show/edit item</string>
