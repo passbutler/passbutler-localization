@@ -121,6 +121,7 @@
     <string name="overview_item_context_menu_copy_password">Passwort kopieren</string>
     <string name="overview_item_context_menu_copy_url">URL kopieren</string>
     <string name="overview_item_context_menu_open_url">URL öffnen</string>
+    <string name="overview_item_context_menu_delete">Eintrag löschen</string>
     <string name="overview_open_url_failed_title">Eine leere URL kann nicht geöffnet werden</string>
     <string name="itemdetail_title_new">Neuen Eintrag anlegen</string>
     <string name="itemdetail_title_edit">Eintrag ansehen/bearbeiten</string>
@@ -146,11 +147,17 @@
     <string name="itemdetail_delete_button_title">Eintrag löschen</string>
     <string name="itemdetail_delete_confirmation_title">Eintrag löschen?</string>
     <string name="itemdetail_delete_confirmation_button_title">Löschen</string>
+    <string name="itemdetail_restore_headline">Eintrag wiederherstellen</string>
+    <string name="itemdetail_restore_button_title">Eintrag wiederherstellen</string>
+    <string name="itemdetail_restore_confirmation_title">Eintrag wiederherstellen?</string>
+    <string name="itemdetail_restore_confirmation_button_title">Wiederherstellen</string>
     <string name="itemdetail_save_button_title">Speichern</string>
     <string name="itemdetail_title_validation_error_empty">Titel nicht ausgefüllt</string>
     <string name="itemdetail_save_failed_general_title">Speichern hat nicht geklappt</string>
     <string name="itemdetail_delete_successful_message">Löschen erfolgreich</string>
     <string name="itemdetail_delete_failed_general_title">Löschen hat nicht geklappt</string>
+    <string name="itemdetail_restore_successful_message">Wiederherstellung erfolgreich</string>
+    <string name="itemdetail_restore_failed_general_title">Wiederherstellung hat nicht geklappt</string>
     <string name="itemdetail_discard_changes_confirmation_title">Änderungen verwerfen?</string>
     <string name="itemdetail_discard_changes_confirmation_message">Es gibt ungespeicherte Änderungen. Willst du diese wirklich verwerfen?</string>
     <string name="passwordgenerator_dialog_title">Erzeugtes Passwort:</string>
@@ -176,8 +183,6 @@
     <string name="recycle_bin_empty_screen_headline">Noch keine Einträge</string>
     <string name="recycle_bin_empty_screen_description">Es wurden noch keine Einträge gelöscht</string>
     <string name="recycle_bin_item_context_menu_restore">Eintrag wiederherstellen</string>
-    <string name="recycle_bin_restore_successful_message">Wiederherstellung erfolgreich</string>
-    <string name="recycle_bin_restore_failed_general_title">Wiederherstellung hat nicht geklappt</string>
     <string name="settings_title">Einstellungen</string>
     <string name="settings_headline">Einstellungen</string>
     <string name="settings_category_general_headline">Allgemein</string>

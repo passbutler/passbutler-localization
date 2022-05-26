@@ -529,6 +529,10 @@
                     "en": "Open URL",
                     "de": "URL öffnen"
                 },
+                "overview_item_context_menu_delete": {
+                    "en": "Delete entry",
+                    "de": "Eintrag löschen"
+                },
                 "overview_open_url_failed_title": {
                     "en": "Could not open empty URL",
                     "de": "Eine leere URL kann nicht geöffnet werden"
@@ -634,6 +638,22 @@
                     "en": "Delete",
                     "de": "Löschen"
                 },
+                "itemdetail_restore_headline": {
+                    "en": "Restore item",
+                    "de": "Eintrag wiederherstellen"
+                },
+                "itemdetail_restore_button_title": {
+                    "en": "Restore item",
+                    "de": "Eintrag wiederherstellen"
+                },
+                "itemdetail_restore_confirmation_title": {
+                    "en": "Really restore?",
+                    "de": "Eintrag wiederherstellen?"
+                },
+                "itemdetail_restore_confirmation_button_title": {
+                    "en": "Restore",
+                    "de": "Wiederherstellen"
+                },
                 "itemdetail_save_button_title": {
                     "en": "Save",
                     "de": "Speichern"
@@ -653,6 +673,14 @@
                 "itemdetail_delete_failed_general_title": {
                     "en": "Deletion was not successful",
                     "de": "Löschen hat nicht geklappt"
+                },
+                "itemdetail_restore_successful_message": {
+                    "en": "Restoring successful",
+                    "de": "Wiederherstellung erfolgreich"
+                },
+                "itemdetail_restore_failed_general_title": {
+                    "en": "Restoring was not successful",
+                    "de": "Wiederherstellung hat nicht geklappt"
                 },
                 "itemdetail_discard_changes_confirmation_title": {
                     "en": "Discard changes?",
@@ -768,14 +796,6 @@
                 "recycle_bin_item_context_menu_restore": {
                     "en": "Restore entry",
                     "de": "Eintrag wiederherstellen"
-                },
-                "recycle_bin_restore_successful_message": {
-                    "en": "Restoring successful",
-                    "de": "Wiederherstellung erfolgreich"
-                },
-                "recycle_bin_restore_failed_general_title": {
-                    "en": "Restoring was not successful",
-                    "de": "Wiederherstellung hat nicht geklappt"
                 }
             }
         },

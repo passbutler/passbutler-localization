@@ -121,6 +121,7 @@
     <string name="overview_item_context_menu_copy_password">Copy password</string>
     <string name="overview_item_context_menu_copy_url">Copy URL</string>
     <string name="overview_item_context_menu_open_url">Open URL</string>
+    <string name="overview_item_context_menu_delete">Delete entry</string>
     <string name="overview_open_url_failed_title">Could not open empty URL</string>
     <string name="itemdetail_title_new">Create new item</string>
     <string name="itemdetail_title_edit">Show/edit item</string>
@@ -146,11 +147,17 @@
     <string name="itemdetail_delete_button_title">Delete item</string>
     <string name="itemdetail_delete_confirmation_title">Really delete?</string>
     <string name="itemdetail_delete_confirmation_button_title">Delete</string>
+    <string name="itemdetail_restore_headline">Restore item</string>
+    <string name="itemdetail_restore_button_title">Restore item</string>
+    <string name="itemdetail_restore_confirmation_title">Really restore?</string>
+    <string name="itemdetail_restore_confirmation_button_title">Restore</string>
     <string name="itemdetail_save_button_title">Save</string>
     <string name="itemdetail_title_validation_error_empty">Title is required</string>
     <string name="itemdetail_save_failed_general_title">Save was not successful</string>
     <string name="itemdetail_delete_successful_message">Deletion successful</string>
     <string name="itemdetail_delete_failed_general_title">Deletion was not successful</string>
+    <string name="itemdetail_restore_successful_message">Restoring successful</string>
+    <string name="itemdetail_restore_failed_general_title">Restoring was not successful</string>
     <string name="itemdetail_discard_changes_confirmation_title">Discard changes?</string>
     <string name="itemdetail_discard_changes_confirmation_message">There are unsaved changes. Do you really want to discard them?</string>
     <string name="passwordgenerator_dialog_title">Generated password:</string>
@@ -176,8 +183,6 @@
     <string name="recycle_bin_empty_screen_headline">No entries</string>
     <string name="recycle_bin_empty_screen_description">Still no entries deleted</string>
     <string name="recycle_bin_item_context_menu_restore">Restore entry</string>
-    <string name="recycle_bin_restore_successful_message">Restoring successful</string>
-    <string name="recycle_bin_restore_failed_general_title">Restoring was not successful</string>
     <string name="settings_title">Settings</string>
     <string name="settings_headline">Settings</string>
     <string name="settings_category_general_headline">General</string>
